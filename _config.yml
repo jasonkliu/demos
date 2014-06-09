@@ -1,9 +1,10 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: "Yale Demos"
+email: "demos@dwighthall.org"
+username: YaleDemos
+description: "Demos, an undergraduate volunteer organization at Yale University in New Haven, Connecticut, is dedicated to educating local elementary students in the basic sciences while showing that science is both fun and accessible."
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://www.yale.edu/demos"
 
 # Build settings
 markdown: kramdown
