@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Captain PlanIt</title>
+	
+    <script type="text/javascript" src="schedule.js"></script>
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+	
+	<link type="text/css" href="jquery/css/ui-lightness/jquery-ui-1.8.17.custom.css" rel="stylesheet" />
+    <link type="text/css" href="schedule.css" rel="stylesheet" />
+	
+  </head> 
+	
+  <body onload="initialLoad()">
+  
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" style="color: #FFF;" href="./frontPage.html">Captain PlanIt</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+			  <li><a href="#about">Scheduler</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+	
+	<div class="row-fluid">
+		<center>
+		<button class="btn btn-info" onClick="loadPrevious()")><i class="icon-chevron-left icon-white"></i> Previous</button>
+		&emsp;&emsp;
+		<span class="label label-info" style="font-size: 12pt;">View Alternate Schedules</span>
+		&emsp;&emsp;
+		<button class="btn btn-info" onClick="loadNext()">Next <i class="icon-chevron-right icon-white"></i></button>
+		</center>
+	</div>
+	<div style="margin-bottom:30px;"/></div>
+	<div id='conflictBox' class="container">
+	
+	</div>
+	<div style="margin-bottom:40px;"/></div>
+	<div class="row-fluid">
+		<div class="span1"></div>
+		<div class="span5"><table id="scheduleTable" class="table table-bordered"></table></div>
+		<div class="span5">
+			<div class="row-fluid">
+				<center>
+					<input id="classSearchBox" class="search-query" type="search" placeholder="Type a class number" data-provide="typeahead" data-items="5" data-source='["1.00", "1.001", "1.002", "1.011", "1.016", "1.020", "1.021", "1.036", "1.041", "1.053", "1.055", "1.060", "1.080", "1.081", "1.083", "1.138", "1.151", "1.202", "1.233", "1.251", "1.253", "1.254", "1.255", "1.258", "1.261", "1.265", "1.271", "1.273", "1.274", "1.284", "1.322", "1.34", "1.383", "1.472", "1.561", "1.562", "1.570", "1.58", "1.582", "1.714", "1.723", "1.76", "1.77", "1.782", "1.813", "1.851", "1.S978", "1.S979", "10.03", "10.04", "10.10", "10.213", "10.301", "10.32", "10.333", "10.37", "10.390", "10.392", "10.426", "10.441", "10.450", "10.53", "10.531", "10.536", "10.542", "10.543", "10.551", "10.557", "10.56", "10.569", "10.606", "10.626", "10.65", "10.792", "10.807", "10.953", "10.960", "10.964", "10.965", "10.967", "10.968", "10.969", "10.970", "10.971", "10.974", "10.976", "10.981", "10.982", "10.983", "10.984", "10.985", "10.987", "10.989", "10.992", "10.994", "10.995", "10.996", "10.997", "10.998", "10.S95", "11.003", "11.005", "11.011", "11.013", "11.016", "11.026", "11.027", "11.123", "11.125", "11.126", "11.127", "11.131", "11.147", "11.153", "11.161", "11.162", "11.166", "11.220", "11.234", "11.249", "11.252", "11.255", "11.302", "11.303", "11.306", "11.316", "11.320", "11.330", "11.332", "11.333", "11.334", "11.337", "11.338", "11.339", "11.344", "11.352", "11.367", "11.369", "11.378", "11.432", "11.434", "11.436", "11.438", "11.466", "11.469", "11.474", "11.479", "11.481", "11.484", "11.487", "11.496", "11.526", "11.541", "11.543", "11.800", "11.910", "11.S195", "11.S196", "11.S940", "11.S941", "11.S942", "11.S943", "11.S944", "11.S946", "11.S948", "11.S949", "11.S958", "11.S965", "11.THG", "12.007", "12.009", "12.011", "12.080", "12.115", "12.207", "12.333", "12.340", "12.400", "12.402", "12.409", "12.420", "12.431", "12.482", "12.510", "12.540", "12.591", "12.601", "12.603", "12.740", "12.801", "12.802", "12.810", "12.820", "12.844", "12.870", "12.980", "12.S990", "14.003", "14.03", "14.05", "14.123", "14.124", "14.126", "14.137", "14.19", "14.21", "14.26", "14.272", "14.273", "14.283", "14.284", "14.32", "14.33", "14.382", "14.386", "14.43", "14.44", "14.441", "14.442", "14.444", "14.453", "14.454", "14.462", "14.471", "14.48", "14.51", "14.573", "14.582", "14.662", "14.70", "14.75", "14.772", "14.773", "15.025", "15.031", "15.032", "15.037", "15.038", "15.053", "15.058", "15.070", "15.071", "15.074", "15.077", "15.078", "15.084", "15.097", "15.099", "15.122", "15.123", "15.137", "15.141", "15.229", "15.268", "15.270", "15.279", "15.317", "15.318", "15.326", "15.349", "15.356", "15.358", "15.363", "15.371", "15.376", "15.386", "15.387", "15.396", "15.398", "15.399", "15.419", "15.423", "15.427", "15.428", "15.433", "15.434", "15.438", "15.441", "15.442", "15.451", "15.460", "15.539", "15.565", "15.571", "15.575", "15.615", "15.617", "15.628", "15.649", "15.655", "15.657", "15.668", "15.676", "15.762", "15.763", "15.764", "15.765", "15.769", "15.771", "15.792", "15.799", "15.828", "15.839", "15.840", "15.878", "15.879", "15.905", "15.913", "15.914", "15.915", "15.S01", "15.S02", "15.S03", "15.S06", "15.S07", "15.S08", "15.S09", "15.S10", "15.S11", "15.S12", "15.S13", "15.S14", "15.S15", "15.S16", "15.S20", "15.S21", "15.S23", "15.S24", "15.S25", "15.S26", "15.S30", "15.S42", "16.00", "16.003", "16.09", "16.20", "16.230", "16.323", "16.333", "16.338", "16.346", "16.36", "16.430", "16.459", "16.470", "16.50", "16.522", "16.540", "16.64", "16.68", "16.687", "16.763", "16.82", "16.831", "16.855", "16.863", "16.888", "16.89", "16.891", "16.90", "16.940", "16.985", "16.S498", "16.S949", "17.006", "17.007", "17.01", "17.021", "17.115", "17.178", "17.181", "17.182", "17.202", "17.28", "17.303", "17.317", "17.33", "17.398", "17.407", "17.42", "17.482", "17.483", "17.50", "17.523", "17.55", "17.551", "17.552", "17.565", "17.57", "17.572", "17.581", "17.584", "17.802", "17.871", "17.955", "17.962", "17.S914", "17.S918", "17.S919", "17.S950", "17.S952", "17.S953", "18.01", "18.02", "18.024", "18.02A", "18.034", "18.04", "18.05", "18.06", "18.075", "18.085", "18.086", "18.100A", "18.100B", "18.100C", "18.102", "18.104", "18.156", "18.157", "18.175", "18.276", "18.304", "18.306", "18.310", "18.311", "18.312", "18.318", "18.330", "18.336", "18.338", "18.354", "18.369", "18.376", "18.400", "18.410", "18.418", "18.424", "18.425", "18.436", "18.438", "18.440", "18.443", "18.702", "18.704", "18.706", "18.726", "18.745", "18.747", "18.781", "18.783", "18.784", "18.785", "18.821", "18.901", "18.904", "18.906", "18.917", "18.950", "18.952", "18.966", "18.994", "18.S995", "2.001", "2.003", "2.005", "2.006", "2.062", "2.065", "2.066", "2.071", "2.081", "2.082", "2.085", "2.14", "2.140", "2.160", "2.18", "2.180", "2.183", "2.184", "2.22", "2.23", "2.341", "2.37", "2.370", "2.374", "2.391", "2.55", "2.57", "2.570", "2.59", "2.60", "2.61", "2.62", "2.67", "2.682", "2.702", "2.704", "2.705", "2.71", "2.710", "2.722", "2.744", "2.752", "2.753", "2.782", "2.785", "2.792", "2.793", "2.797", "2.813", "2.83", "2.830", "2.888", "2.890", "2.965", "2.997", "2.998", "2.S997", "20.104", "20.111", "20.200", "20.310", "20.330", "20.345", "20.361", "20.371", "20.380", "20.411", "20.415", "20.440", "20.451", "20.486", "20.S952", "21A.100", "21A.114", "21A.215", "21A.218", "21A.225", "21A.228", "21A.229", "21A.341", "21A.342", "21A.430", "21A.512", "21A.760", "21F.011", "21F.019", "21F.021", "21F.022", "21F.027", "21F.029", "21F.040", "21F.046", "21F.064", "21F.068", "21F.069", "21F.074", "21F.075", "21F.084", "21F.106", "21F.142", "21F.143", "21F.162", "21F.163", "21F.192", "21F.199", "21F.219", "21F.220", "21F.222", "21F.223", "21F.224", "21F.232", "21F.233", "21F.310", "21F.312", "21F.346", "21F.401", "21F.410", "21F.416", "21F.451", "21F.555", "21F.556", "21F.562", "21F.563", "21F.590", "21F.592", "21F.711", "21F.713", "21F.716", "21F.740", "21F.802", "21F.804", "21F.820", "21F.852", "21H.102", "21H.106", "21H.132", "21H.133", "21H.134", "21H.142", "21H.152", "21H.155", "21H.161", "21H.185", "21H.209", "21H.211", "21H.213", "21H.217", "21H.236", "21H.245", "21H.250", "21H.253", "21H.312", "21H.321", "21H.333", "21H.351", "21H.365", "21H.390", "21H.981", "21L.000", "21L.002", "21L.005", "21L.006", "21L.007", "21L.008", "21L.009", "21L.029", "21L.310", "21L.315", "21L.325", "21L.421", "21L.422", "21L.430", "21L.434", "21L.448", "21L.451", "21L.460", "21L.471", "21L.473", "21L.487", "21L.488", "21L.501", "21L.522", "21L.640", "21L.702", "21L.703", "21L.705", "21L.706", "21L.715", "21M.011", "21M.065", "21M.215", "21M.226", "21M.250", "21M.260", "21M.269", "21M.273", "21M.294", "21M.340", "21M.350", "21M.351", "21M.380", "21M.401", "21M.405", "21M.410", "21M.421", "21M.423", "21M.426", "21M.442", "21M.445", "21M.450", "21M.451", "21M.460", "21M.505", "21M.515", "21M.581", "21M.604", "21M.606", "21M.705", "21M.715", "21M.735", "21M.785", "21M.789", "21W.011", "21W.031", "21W.035", "21W.041", "21W.735", "21W.739", "21W.741", "21W.742", "21W.745", "21W.746", "21W.749", "21W.752", "21W.754", "21W.755", "21W.757", "21W.762", "21W.764", "21W.767", "21W.768", "21W.769", "21W.771", "21W.777", "21W.785", "21W.789", "21W.790", "21W.824", "21W.826", "21W.890", "21W.THG", "22.00", "22.012", "22.02", "22.055", "22.070", "22.071", "22.106", "22.107", "22.211", "22.313", "22.38", "22.40", "22.55", "22.561", "22.612", "22.62", "22.63", "22.70", "22.78", "22.912", "22.S904", "24.02", "24.04", "24.111", "24.114", "24.118", "24.211", "24.215", "24.235", "24.237", "24.242", "24.280", "24.401", "24.502", "24.601", "24.711", "24.810", "24.900", "24.903", "24.905", "24.909", "24.912", "24.914", "24.918", "24.933", "24.942", "24.952", "24.954", "24.956", "24.962", "24.967", "24.968", "24.973", "24.981", "24.991", "24.S95", "24.S96", "3.021", "3.044", "3.053", "3.054", "3.063", "3.091", "3.152", "3.21", "3.22", "3.36", "3.370", "3.45", "3.903", "3.961", "3.97", "3.985", "3.987", "3.990", "4.111", "4.113", "4.115", "4.163", "4.181", "4.183", "4.189", "4.211", "4.216", "4.232", "4.233", "4.241", "4.244", "4.247", "4.253", "4.254", "4.264", "4.302", "4.314", "4.315", "4.332", "4.333", "4.341", "4.342", "4.343", "4.365", "4.366", "4.367", "4.368", "4.388", "4.389", "4.390", "4.427", "4.430", "4.431", "4.474", "4.475", "4.501", "4.510", "4.522", "4.523", "4.541", "4.542", "4.553", "4.556", "4.557", "4.561", "4.582", "4.583", "4.587", "4.602", "4.605", "4.611", "4.613", "4.616", "4.625", "4.641", "4.644", "4.645", "4.663", "4.670", "4.671", "4.S12", "4.S14", "4.S32", "4.S42", "4.S52", "4.S54", "4.S66", "4.S68", "5.03", "5.05", "5.063", "5.068", "5.069", "5.08", "5.111", "5.12", "5.24", "5.44", "5.45", "5.46", "5.48", "5.50", "5.512", "5.561", "5.60", "5.62", "5.64", "5.72", "5.74", "5.913", "5.921", "5.931", "5.941", "6.00", "6.004", "6.006", "6.007", "6.011", "6.012", "6.013", "6.02", "6.022", "6.023", "6.024", "6.034", "6.035", "6.041", "6.045", "6.046", "6.049", "6.070", "6.071", "6.072", "6.102", "6.115", "6.123", "6.170", "6.182", "6.241", "6.252", "6.253", "6.256", "6.262", "6.265", "6.302", "6.334", "6.335", "6.431", "6.437", "6.441", "6.443", "6.522", "6.541", "6.632", "6.634", "6.641", "6.652", "6.691", "6.695", "6.717", "6.730", "6.775", "6.777", "6.780", "6.781", "6.813", "6.814", "6.815", "6.824", "6.830", "6.831", "6.832", "6.842", "6.850", "6.851", "6.857", "6.865", "6.870", "6.875", "6.881", "6.902", "6.S062", "6.S076", "6.S078", "6.S083", "6.S084", "6.S897", "6.S976", "6.S977", "6.UAT", "7.013", "7.014", "7.05", "7.06", "7.08", "7.10", "7.23", "7.26", "7.27", "7.28", "7.29", "7.33", "7.342", "7.343", "7.345", "7.346", "7.37", "7.41", "7.49", "7.549", "7.55", "7.57", "7.58", "7.63", "7.64", "7.66", "7.68", "7.70", "7.76", "7.77", "7.80", "7.88", "7.95", "7.98", "8.022", "8.03", "8.04", "8.044", "8.06", "8.08", "8.226", "8.282", "8.284", "8.311", "8.322", "8.323", "8.325", "8.334", "8.371", "8.421", "8.431", "8.512", "8.614", "8.711", "8.901", "8.962", "9.00", "9.012", "9.013", "9.09", "9.10", "9.14", "9.18", "9.181", "9.285", "9.301", "9.35", "9.520", "9.59", "9.65", "9.68", "9.691", "9.70", "9.75", "9.77", "9.777", "9.91", "9.S52", "9.S913", "9.S915", "CC.011", "CC.111", "CC.112", "CC.114", "CC.1803", "CC.802", "CMS.312", "CMS.335", "CMS.338", "CMS.361", "CMS.362", "CMS.376", "CMS.400", "CMS.590", "CMS.607", "CMS.609", "CMS.610", "CMS.612", "CMS.616", "CMS.621", "CMS.631", "CMS.812", "CMS.821", "CMS.830", "CMS.831", "CMS.838", "CMS.843", "CMS.846", "CMS.861", "CMS.862", "CMS.863", "CMS.866", "CMS.868", "CMS.871", "CMS.876", "CMS.920", "CMS.922", "CMS.935", "CMS.951", "CMS.990", "CMS.S98", "EC.050", "EC.075", "EC.090", "EC.100", "EC.101", "EC.110", "EC.120", "EC.130", "EC.310", "EC.711", "EC.714", "EC.715", "EC.720", "EC.733", "ES.010", "ES.1802", "ES.1803", "ES.802", "ES.8022", "ES.S10", "ES.S11", "ES.S20", "ES.S41", "ES.S60", "ES.S61", "ES.S70", "ES.S71", "ESD.00", "ESD.01", "ESD.051", "ESD.052", "ESD.053", "ESD.054", "ESD.125", "ESD.129", "ESD.132", "ESD.137", "ESD.162", "ESD.191", "ESD.192", "ESD.212", "ESD.222", "ESD.226", "ESD.261", "ESD.265", "ESD.267", "ESD.268", "ESD.274", "ESD.283", "ESD.344", "ESD.352", "ESD.38", "ESD.40", "ESD.565", "ESD.63", "ESD.64", "ESD.712", "ESD.753", "ESD.755", "ESD.756", "ESD.762", "ESD.77", "ESD.80", "ESD.802", "ESD.86", "ESD.863", "ESD.864", "ESD.S21", "ESD.S22", "ESD.S30", "ESD.S31", "ESD.S40", "ESD.S41", "ESD.S43", "ESD.S50", "HST.060", "HST.061", "HST.080", "HST.081", "HST.100", "HST.101", "HST.110", "HST.111", "HST.150", "HST.151", "HST.200", "HST.202", "HST.203", "HST.212", "HST.491", "HST.500", "HST.509", "HST.514", "HST.521", "HST.523", "HST.524", "HST.527", "HST.531", "HST.542", "HST.560", "HST.584", "HST.590", "HST.710", "HST.723", "HST.790", "HST.905", "HST.916", "HST.918", "HST.921", "HST.922", "HST.923", "HST.924", "HST.934", "HST.971", "HST.977", "HST.979", "MAS.111", "MAS.132", "MAS.160", "MAS.510", "MAS.511", "MAS.532", "MAS.533", "MAS.551", "MAS.552", "MAS.571", "MAS.581", "MAS.600", "MAS.664", "MAS.672", "MAS.681", "MAS.826", "MAS.836", "MAS.S60", "MAS.S61", "MAS.S62", "MAS.S63", "MS.402", "NS.201", "NS.202", "NS.301", "NS.402", "SP.360", "STS.001", "STS.005", "STS.007", "STS.009", "STS.050", "STS.087", "STS.089", "STS.091", "STS.340", "STS.390", "STS.449", "STS.901", "STS.S91", "WGS.101", "WGS.115", "WGS.141", "WGS.142", "WGS.170", "WGS.190", "WGS.220", "WGS.221", "WGS.228", "WGS.231", "WGS.234", "WGS.237", "WGS.240", "WGS.270", "WGS.301", "WGS.600", "WGS.615", "WGS.640", "WGS.700"]'></input>
+					&emsp;
+					<button class="btn btn-primary" onClick="closeSearchBox()"><i class="icon-plus icon-white"></i> Add Class</button>
+				</center>
+			</div>
+			<div style="margin-bottom:20px;"/></div>
+			<div class="row-fluid">
+				<div class="span12"><table id="classTable" class="table table-bordered"></table></div>
+			</div>
+			<div class="row-fluid">
+				<center>
+				<button class="btn" onClick="deleteSelectedClass()"><i class="icon-trash"></i> Delete Selected</button>
+				&emsp;&emsp;
+				<button class="btn" onClick="clearSelectedClasses()"><i class="icon-remove"></i> Clear All</button>
+				&emsp;&emsp;
+				<button class="btn" onClick="moveUp()"><i class="icon-arrow-up"></i> Move Up</button>
+				&emsp;&emsp;
+				<button class="btn" onClick="moveDown()"><i class="icon-arrow-down"></i> Move Down</button>
+				</center>
+			</div>
+			<div style="margin-bottom:150px;"/></div>
+			<div class="row-fluid">			
+				<center><button class="btn btn-primary" data-toggle="modal" href="#myModal"><i class="icon-plus icon-white"></i> Add Activity</button></center>
+			</div>
+			<div style="margin-bottom:20px;"/></div>
+			<div class="row-fluid">
+				<table id="activityTable" class="table table-bordered"></table>
+			</div>
+			<div class="row-fluid">
+			<center>
+				<button class="btn" onClick="deleteSelectedActivities()"><i class="icon-trash"></i> Delete Selected</button>
+				&emsp;&emsp;
+				<button class="btn" onClick="clearSelectedActivities()"><i class="icon-remove"></i> Clear All</button>
+				&emsp;&emsp;
+				<button class="btn" onClick="moveUp1()"><i class="icon-arrow-up"></i> Move Up</button>
+				&emsp;&emsp;
+				<button class="btn" onClick="moveDown1()"><i class="icon-arrow-down"></i> Move Down</button>
+			</center>
+			</div>
+			<!-- <div style="margin-bottom:150px;"/></div>
+			<div class="row-fluid">	
+				<div class="span5"></div>
+				<div id='outputTitle' class="container"><b><font size='4'>Text Schedule</font></b></div>
+			</div>
+			<div id='textOutput' class="container span12">
+	
+			</div>	
+			<div style="margin-bottom:30px;"/></div>
+			<div class="row-fluid">
+			<center>
+				<button class="btn" onClick="loadText()">Load Text</button>
+			</center>
+			</div> -->
+		</div>
+		<div class="span1"></div>
+	</div>
+	
+	<div style="margin-bottom:15px;"/></div>
+
+	
+	
+	<div id="myModal" class="modal hide fade" >
+		<div class="modal-header">
+		  <button class="close" data-dismiss="modal">&times;</button>
+		  <h3>New Activity</h3>
+		</div>
+		<div class="modal-body">
+		  <h4>Adding an activity</h4>
+		  <p>Do you play 4 sports, work 7 UROPs, and run 5 clubs? No problem. Just name the activity, specify the time, and we'll schedule it for you!</p>
+
+		  <hr>
+
+			<div class="row-fluid"><center>Activity Name: <input id="activitiesName" class="search-query" type="search"/></center></div>
+			<div class="row-fluid" style="margin-bottom:25px;"/></div>
+			<div class="row-fluid"> 
+				<div id="group" class="btn-group" data-toggle="buttons-checkbox"><center>
+				  <button id="mondayActivity" onclick="selectMonday()" class="btn">Monday</button>
+				  <button id="tuesdayActivity" onclick="selectTuesday()" class="btn">Tuesday</button>
+				  <button id="wednesdayActivity" onclick="selectWednesday()" class="btn">Wednesday</button>
+				  <button id="thursdayActivity" onclick="selectThursday()" class="btn">Thursday</button>
+				  <button id="fridayActivity" onclick="selectFriday()" class="btn">Friday</button>
+				</center></div> 
+			</div>
+			<div class="row-fluid" style="margin-bottom:25px;"/></div>
+			<div class="row-fluid"> 
+					<div class="span2"></div>
+					<div class="span3"><label>Start Time: </label></div>
+				    <div class="span3"><select id="startTime">
+						<option value="0">&mdash;</option>
+						<option value="1">8:00 AM</option>
+						<option value="2">8:30 AM</option>
+						<option value="3">9:00 AM</option>
+						<option value="4">9:30 AM</option>
+						<option value="5">10:00 AM</option>
+						<option value="6">10:30 AM</option>
+						<option value="7">11:00 AM</option>
+						<option value="8">11:30 AM</option>
+						<option value="9">12:00 PM</option>
+						<option value="10">12:30 PM</option>
+						<option value="11">1:00 PM</option>
+						<option value="12">1:30 PM</option>
+						<option value="13">2:00 PM</option>
+						<option value="14">2:30 PM</option>
+						<option value="15">3:00 PM</option>
+						<option value="16">3:30 PM</option>
+						<option value="17">4:00 PM</option>
+						<option value="18">4:30 PM</option>
+						<option value="19">5:00 PM</option>
+						<option value="20">5:30 PM</option>
+						<option value="21">6:00 PM</option>
+						<option value="22">6:30 PM</option>
+						<option value="23">7:00 PM</option>
+						<option value="24">7:30 PM</option>
+						<option value="25">8:00 PM</option>
+						<option value="26">8:30 PM</option>
+						<option value="27">9:00 PM</option>
+						<option value="28">9:30 PM</option>
+				    </select></div>
+			</div>
+			
+			<div class="row-fluid"> 
+				<div class="span2"></div> 
+				<div class="span3"><label>End Time: </label></div>
+				<div class="span3">
+				  <select id="endTime">
+					<option value="0">&mdash;</option>
+					<option value="1">8:00 AM</option>
+					<option value="2">8:30 AM</option>
+					<option value="3">9:00 AM</option>
+					<option value="4">9:30 AM</option>
+					<option value="5">10:00 AM</option>
+					<option value="6">10:30 AM</option>
+					<option value="7">11:00 AM</option>
+					<option value="8">11:30 AM</option>
+					<option value="9">12:00 PM</option>
+					<option value="10">12:30 PM</option>
+					<option value="11">1:00 PM</option>
+					<option value="12">1:30 PM</option>
+					<option value="13">2:00 PM</option>
+					<option value="14">2:30 PM</option>
+					<option value="15">3:00 PM</option>
+					<option value="16">3:30 PM</option>
+					<option value="17">4:00 PM</option>
+					<option value="18">4:30 PM</option>
+					<option value="19">5:00 PM</option>
+					<option value="20">5:30 PM</option>
+					<option value="21">6:00 PM</option>
+					<option value="22">6:30 PM</option>
+					<option value="23">7:00 PM</option>
+					<option value="24">7:30 PM</option>
+					<option value="25">8:00 PM</option>
+					<option value="26">8:30 PM</option>
+					<option value="27">9:00 PM</option>
+					<option value="28">9:30 PM</option>
+				  </select>
+				</div>
+			</div>
+
+			
+		<div class="modal-footer">
+		  <a href="#" class="btn btn-primary" onClick="saveActivitiesChanges()" data-dismiss="modal">Save changes</a>
+		  <a href="#" class="btn" onClick = "resetDays()" data-dismiss="modal" >Close</a>
+		</div>
+	</div>
+	
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>	
+	<script src="js/bootstrap-transition.js"></script>
+	<script src="js/bootstrap-typeahead.js"></script>
+  </body>
+</html>

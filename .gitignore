@@ -1,1 +1,12 @@
 _site/
+
+# Demos Pictures Directories
+*.pdf
+*.docx
+pictures/
+img/
+files/
+images/
+12-13/
+DEMOS Fall 2010/
+DemosArchive/
