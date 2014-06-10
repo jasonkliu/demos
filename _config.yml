@@ -4,7 +4,7 @@ email: "demos@dwighthall.org"
 username: YaleDemos
 description: "Demos, an undergraduate volunteer organization at Yale University in New Haven, Connecticut, is dedicated to educating local elementary students in the basic sciences while showing that science is both fun and accessible."
 baseurl: "/demos"
-url: "http://www.yale.edu/demos"
+url: "https://jasonkliu.github.io"
 
 # Build settings
 markdown: kramdown
