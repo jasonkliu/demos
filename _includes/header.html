@@ -18,7 +18,9 @@
       </a>
       <div class="trigger">
         {% for page in site.pages %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        {% unless page.title == "Demos: Making Science Fun!" %}  <!-- Exclude homepage from top navbar -->
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endunless %}
         {% endfor %}
       </div>
     </nav>

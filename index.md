@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Yale DEMOS
+title: "Demos: Making Science Fun!"
 permalink: /
 ---
 
