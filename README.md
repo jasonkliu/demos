@@ -9,7 +9,7 @@ Jason Liu, for more information. This repository is hosted at https://github.com
 
 This `gh-pages` branch uses Jekyll to serve a static set of webpages for documentation purposes.  
 The `master` branch contains the current Demos website (as of 10 June 2014) without images to save space.  
-The `f10photos` branch contains the site with a photos slideshow (from fall 2010) without images to save space.  
+The `f10photos` branch contains the site with a photos slideshow (from fall 2010) without images.
 The `f10site` branch contains the old website from fall 2010, which was later redesigned.  
 
 Running locally:
