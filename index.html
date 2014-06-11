@@ -1,0 +1,399 @@
+<html>
+<head>
+<title>Demos: Making Science Fun</title>
+<meta http-equiv="Content-Type" content="text/html;">
+
+<script src="Spry-UI-1.7/includes/SpryDOMUtils.js" type="text/javascript"></script>
+<script src="Spry-UI-1.7/includes/SpryDOMEffects.js" type="text/javascript"></script>
+<script src="Spry-UI-1.7/includes/SpryWidget.js" type="text/javascript"></script>
+<script src="Spry-UI-1.7/includes/SpryPanelSelector.js" type="text/javascript"></script>
+<script src="Spry-UI-1.7/includes/SpryPanelSet.js" type="text/javascript"></script>
+<script src="Spry-UI-1.7/includes/SpryFadingPanels.js" type="text/javascript"></script>
+<script src="Spry-UI-1.7/includes/SprySliderPanels.js" type="text/javascript"></script>
+<script src="Spry-UI-1.7/includes/SpryFilmStrip.js" type="text/javascript"></script>
+<script src="Spry-UI-1.7/includes/SpryImageLoader.js" type="text/javascript"></script>
+<script src="Spry-UI-1.7/includes/SpryImageSlideShow.js" type="text/javascript"></script>
+<script src="Spry-UI-1.7/includes/plugins/ImageSlideShow/SpryThumbnailFilmStripPlugin.js" type="text/javascript"></script>
+<script src="Spry-UI-1.7/includes/plugins/ImageSlideShow/SpryTitleSliderPlugin.js" type="text/javascript"></script>
+<script src="Spry-UI-1.7/includes/plugins/ImageSlideShow/SpryPanAndZoomPlugin.js" type="text/javascript"></script>
+<script language="JavaScript">
+<!-- hide
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+// stop hiding -->
+</script>
+<LINK REL=StyleSheet HREF="style.css" TYPE="text/css" MEDIA=screen />
+<!----Google Analytics------>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18367536-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!----Google Analytics------>
+<!----Google Analytics------>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18367536-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!----Google Analytics------>
+<link href="Spry-UI-1.7/css/ImageSlideShow/basicFS/basic_fs.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+/* BeginOAWidget_Instance_2141543: #Demos */
+
+#Demos {
+	width: 250px;
+	margin: 24px 0px 0px 0px;
+	border: solid 1px #AAAAAA;
+	background-color: #FFFFFF;
+	padding-top: 5px;
+}
+
+#Demos .ISSName {
+	top: -24px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #AAAAAA;
+}
+
+#Demos .ISSSlideTitle {
+	top: -18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	overflow: hidden;
+	color: #AAAAAA;
+	text-transform: none;
+}
+
+#Demos .ISSClip {
+	height: 250px;
+	margin: 0 5px 5px 5px;
+	border: solid 1px #ffffcc;
+	background-color: #000000;
+}
+
+#Demos .ISSControls {
+	top: 10px;
+	height: 250px;
+}
+
+#Demos .FilmStrip {
+	height: 50px;
+	background-color: #ffcc66;
+}
+
+#Demos .FilmStripPreviousButton, #Demos .FilmStripNextButton {
+	width: 25px;
+	height: 50px;
+}
+
+#Demos .FilmStripTrack {
+	height: 50px;
+}
+
+#Demos .FilmStripContainer {
+	height: 50px;
+}
+
+#Demos .FilmStripPanel {
+	height: 50px;
+	padding-left: 10px;
+	margin-right: 0px;
+}
+
+#Demos .FilmStripPanel .ISSSlideLink {
+	margin-top: 10px;
+	border: solid 1px #ffffcc;
+	background-color: #FFFFFF;
+}
+
+#Demos .FilmStripPanel .ISSSlideLinkRight {
+	border: solid 1px #ffffcc;
+	width: 20px;
+	height: 20px;
+	margin: 4px 4px 4px 4px;
+}
+
+#Demos .FilmStripCurrentPanel .ISSSlideLink {
+	background-color: #FFFFFF;
+	border-color: #FF0000;
+}
+
+#Demos .FilmStripCurrentPanel .ISSSlideLinkRight {
+	border-color: #ffffcc;
+}
+    
+/* EndOAWidget_Instance_2141543 */
+</style>
+<script type="text/xml">
+<!--
+<oa:widgets>
+  <oa:widget wid="2141543" binding="#Demos" />
+</oa:widgets>
+-->
+</script>
+<style type="text/css">
+/* BeginOAWidget_Instance_2141543: #Demos */
+
+#Demos {
+	width: 500px;
+	margin: 24px 0px 0px 0px;
+	border: solid 1px #AAAAAA;
+	background-color: #FFFFFF;
+	padding-top: 5px;
+}
+
+#Demos .ISSName {
+	top: -24px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #AAAAAA;
+}
+
+#Demos .ISSSlideTitle {
+	top: -18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	overflow: hidden;
+	color: #AAAAAA;
+	text-transform: none;
+}
+
+#Demos .ISSClip {
+	height: 300px;
+	margin: 0 5px 5px 5px;
+	border: solid 1px #ffffcc;
+	background-color: #000000;
+}
+
+#Demos .ISSControls {
+	top: 10px;
+	height: 300px;
+}
+
+#Demos .FilmStrip {
+	height: 50px;
+	background-color: #ffcc66;
+}
+
+#Demos .FilmStripPreviousButton, #Demos .FilmStripNextButton {
+	width: 10px;
+	height: 50px;
+}
+
+#Demos .FilmStripTrack {
+	height: 50px;
+}
+
+#Demos .FilmStripContainer {
+	height: 50px;
+}
+
+#Demos .FilmStripPanel {
+	height: 50px;
+	padding-left: 10px;
+	margin-right: 0px;
+}
+
+#Demos .FilmStripPanel .ISSSlideLink {
+	margin-top: 10px;
+	border: solid 1px #ffffcc;
+	background-color: #FFFFFF;
+}
+
+#Demos .FilmStripPanel .ISSSlideLinkRight {
+	border: solid 1px #ffffcc;
+	width: 20px;
+	height: 20px;
+	margin: 4px 4px 4px 4px;
+}
+
+#Demos .FilmStripCurrentPanel .ISSSlideLink {
+	background-color: #FFFFFF;
+	border-color: #FF0000;
+}
+
+#Demos .FilmStripCurrentPanel .ISSSlideLinkRight {
+	border-color: #ffffcc;
+}
+    
+/* EndOAWidget_Instance_2141543 */
+</style>
+</head>
+<body bgcolor="#ffffff">
+
+<div id="page">
+
+<div id="topnav">
+<table border="0" cellpadding="0" cellspacing="0" width="830">
+
+  <tr>
+   <td><a href="index.html"><img name="templater1_c1" src="images/template/template-r1_c1.gif" width="298" height="77" border="0" alt=""></a></td>
+   <td><a href="about.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('templater1_c2','','images/template/template-r1_c2-2.gif',1);"><img name="templater1_c2" src="images/template/template-r1_c2.gif" width="72" height="77" border="0" alt=""></a></td>
+   <td><a href="programs.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('templater1_c3','','images/template/template-r1_c3-2.gif',1);"><img name="templater1_c3" src="images/template/template-r1_c3.gif" width="92" height="77" border="0" alt=""></a></td>
+   <td><a href="foryalestudents.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('templater1_c4','','images/template/template-r1_c4-2.gif',1);"><img name="templater1_c4" src="images/template/template-r1_c4.gif" width="159" height="77" border="0" alt=""></a></td>
+   <td><a href="forschools.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('templater1_c5','','images/template/template-r1_c5-2.gif',1);"><img name="templater1_c5" src="images/template/template-r1_c5.gif" width="110" height="77" border="0" alt=""></a></td>
+   <td><a href="contact.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('templater1_c6','','images/template/template-r1_c6-2.gif',1);"><img name="templater1_c6" src="images/template/template-r1_c6.gif" width="83" height="77" border="0" alt=""></a></td>
+   <td><img name="templater1_c7" src="images/template/template-r1_c7.gif" width="17" height="77" border="0" alt=""></td>
+  </tr>
+</table>
+</div>
+<!-- #topnav -->
+
+
+
+<div id="content"> <h2 align="left"><a href="guide.html" title="Sign up"><font size=4></font></a><a href="guide.html"><font size=4>Click here for DEMOS materials</font></a></h2>
+<h2 align="left"><a href="classroom.shtml"><font size=4>Click here for Spring 2012 Sign-ups</font></a></h2>
+<h1>Demos</h1>
+
+
+<center>
+<ul id="Demos" title="">
+    <li><a href="images/1.jpg" title="Demos Outdoors"><img src="images/1.jpg" alt="photos-10.jpg" height="300" /></a></li>
+    <li><a href="images/2.jpg" title="Demos Outdoors"><img src="images/2.jpg" alt="photos-11.jpg" height="300" /></a></li>
+    <li><a href="images/3.jpg" title="Canon in the Classroom"><img src="images/3.jpg" alt="photos-12.jpg" height="300" /></a></li>
+    <li><a href="images/4.jpg" title="Assemblies"><img src="images/4.jpg" alt="photos-13.jpg" height="300" /></a></li>
+    <li><a href="images/5.jpg" title="Demos Outdoors"><img src="images/5.jpg" alt="photos-14.jpg" height="300" /></a></li>
+    <li><a href="images/6.jpg" title="Demos in the Classroom"><img src="images/6.jpg" alt="photos-15.jpg" height="300"/></a></li>
+    <li><a href="images/7.jpg" title="Demos in the Classroom"><img src="images/7.jpg" alt="photos-2.jpg" height="300" /></a></li>
+    <li><a href="images/8.jpg" title="Assemblies"><img src="images/8.jpg" alt="photos-3.jpg" height="300" /></a></li>
+    <li><a href="images/9.jpg" title="Assemblies"><img src="images/9.jpg" alt="photos-4.jpg" height="300" /></a></li>
+    <li><a href="images/a1.jpg" title="Assemblies"><img src="images/a1.jpg" alt="photos-5.jpg" height="300" /></a></li>
+    <li><a href="images/2010 Fall/2010-11-30 11.45.09.jpg" title="Demos Fall 2010"><img src="images/2010 Fall/2010-11-30 11.45.09.jpg" alt="photos-9.jpg" height="300"/></a></li>
+    <li><a href="images/2010 Fall/CIMG0810.JPG" title="Demos Fall 2010"><img src="images/2010 Fall/CIMG0810.JPG" alt="photos-9.jpg" height="300" /></a></li>
+    <li><a href="images/2010 Fall/CIMG0811.JPG" title="Demos Fall 2010"><img src="images/2010 Fall/CIMG0811.JPG" alt="photos-9.jpg" height="300"/></a></li>
+    <li><a href="images/2010 Fall/CIMG0812.JPG" title="Demos Fall 2010"><img src="images/2010 Fall/CIMG0812.JPG" alt="photos-9.jpg" height="300" /></a></li>
+    <li><a href="images/2010 Fall/CIMG0813.JPG" title="Demos Fall 2010"><img src="images/2010 Fall/CIMG0813.JPG" alt="photos-9.jpg" height="300" /></a></li>
+    <li><a href="images/2010 Fall/CIMG0814.JPG" title="Demos Fall 2010"><img src="images/2010 Fall/CIMG0814.JPG" alt="photos-9.jpg" height="300" /></a></li>
+    <li><a href="images/2010 Fall/CIMG0815.JPG" title="Demos Fall 2010"><img src="images/2010 Fall/CIMG0815.JPG" alt="photos-9.jpg" height="300" /></a></li>
+    <li><a href="images/2010 Fall/CIMG0816.JPG" title="Demos Fall 2010"><img src="images/2010 Fall/CIMG0816.JPG" alt="photos-9.jpg" height="300" /></a></li>
+    <li><a href="images/2010 Fall/CIMG0817.JPG" title="Demos Fall 2010"><img src="images/2010 Fall/CIMG0817.JPG" alt="photos-9.jpg" height="300" /></a></li>
+    <li><a href="images/2010 Fall/CIMG0818.JPG" title="Demos Fall 2010"><img src="images/2010 Fall/CIMG0818.JPG" alt="photos-9.jpg" height="300" /></a></li>
+    <li><a href="images/2010 Fall/CIMG0819.JPG" title="Demos Fall 2010"><img src="images/2010 Fall/CIMG0819.JPG" alt="photos-9.jpg" height="300" /></a></li>
+    <li><a href="images/2010 Fall/CIMG0820.JPG" title="Demos Fall 2010"><img src="images/2010 Fall/CIMG0820.JPG" alt="photos-9.jpg" height="300" /></a></li>
+    <li><a href="images/2010 Fall/CIMG0821.JPG" title="Demos Fall 2010"><img src="images/2010 Fall/CIMG0821.JPG" alt="photos-9.jpg" height="300" /></a></li>
+    <li><a href="images/2010 Fall/CIMG0822.JPG" title="Demos Fall 2010"><img src="images/2010 Fall/CIMG0822.JPG" alt="photos-9.jpg" height="300" /></a></li>
+    <li><a href="images/2010 Fall/CIMG0823.JPG" title="Demos Fall 2010"><img src="images/2010 Fall/CIMG0823.JPG" alt="photos-9.jpg" height="300" /></a></li>
+    <li><a href="images/2010 Fall/CIMG0824.JPG" title="Demos Fall 2010"><img src="images/2010 Fall/CIMG0824.JPG" alt="photos-9.jpg" height="300"/></a></li>
+    <li><a href="images/2010 Fall/CIMG0825.JPG" title="Demos Fall 2010"><img src="images/2010 Fall/CIMG0825.JPG" alt="photos-9.jpg" height="300" /></a></li>
+    <li><a href="images/2010 Fall/CIMG0826.JPG" title="Demos Fall 2010"><img src="images/2010 Fall/CIMG0826.JPG" alt="photos-9.jpg" height="300" /></a></li>
+    <li><a href="images/2010 Fall/CIMG0827.JPG" title="Demos Fall 2010"><img src="images/2010 Fall/CIMG0827.JPG" alt="photos-9.jpg" height="300"/></a></li>
+    <li><a href="images/2010 Fall/mail.jpeg" title="Demos Fall 2010"><img src="images/2010 Fall/mail.jpeg" alt="photos-9.jpg" height="300" /></a></li>
+    <li><a href="images/2010 Fall/SANY6056.jpg" title="Demos Fall 2010"><img src="images/2010 Fall/SANY6056.jpg" alt="photos-9.jpg" height="300" /></a></li>
+
+</ul>
+<script type="text/javascript">
+// BeginOAWidget_Instance_2141543: #Demos
+
+var Demos = new Spry.Widget.ImageSlideShow("#Demos", {
+	widgetID: "Demos",
+	widgetClass: "BasicSlideShowFS",
+	injectionType: "replace",
+	autoPlay: true,
+	displayInterval: 3500,
+	transitionDuration: 500,
+	componentOrder: ["name", "title", "view", "controls", "links"],
+	sliceMap: { BasicSlideShowFS: "3slice", ISSSlideLink: "3slice" },
+	plugIns: [ Spry.Widget.ImageSlideShow.ThumbnailFilmStripPlugin, Spry.Widget.ImageSlideShow.TitleSliderPlugin, Spry.Widget.ImageSlideShow.PanAndZoomPlugin ],
+	TFSP: { pageIncrement: 5, wraparound: true }
+});
+// EndOAWidget_Instance_2141543
+</script>
+</center>
+
+<p class="left">Demos, an undergraduate volunteer organization at <a href="http://www.yale.edu/">Yale University</a> in <a href="http://www.cityofnewhaven.com/">New Haven, Conntecticut</a>, is dedicated to educating local elementary students in the basic sciences while showing that science is both fun and accescible. We have a <a href="about.html">long history</a> in the New Haven and Yale communities and are proud to be one of Yale's most respected educational organizations. We offer a wide variety of <a href="programs">programs</a>. In fact, during the late '80s and early '90s local school standards did not mandate that science be taught in elementary schools, and so for nearly a decade, thousands of New Haven elementary students were only exposed to science through Demos.</p>
+<p class="quote"><strong>Demos in the News!:</strong> Check out recent press coverage of our highly successful tables at Yale's Communiversity Day! <ul><li>New Haven Register: <a href="http://www.nhregister.com:80/WebApp/appmanager/JRC/BigDaily?_nfpb=true&_pageLabel=pg_article&r21.pgpath=%2FNHR%2FHome&r21.content=%2FNHR%2FHome%2FTopStoryList_Story_1887145">online here</a></li> <li>Yale Daily News Video Headlines: <a href="http://www.yaledailynews.com/photos/view/11336">online here</a></li>
+<li>Yale Bulletin:<a href="http://opa.yale.edu/bulletin/yale_bulletin.aspx"> online here</a></li>
+</ul>
+<p class="quote">This website contains more information on our many <a href="programs.html">programs</a>, as well as on ways for <a href="foryalestudents.html">Yale students</a> and local, <a href="forschools.html">New Haven-area schools</a> to become involved with our program. Visitors to this site may also wish to visit the <a href="http://www.yale.edu/onhsa/science/index.html">Yale Science for the Community</a> website or the <a href="http://www.yale.edu/onhsa/youth.htm">Yale and New Haven Youth Programs</a> website.</p>
+</div><!-- #content -->
+
+<p>Questions about DEMOS in general? Contact our co-coordinators, <a href="mailto:demos@dwighthall.org?subject=[DEMOS] Question">El<img src="">izabeth Asai</a> and <a href="mailto:demos@dwighthall.org?subject=[DEMOS] Question">Kaitlin Mclean</a>. </p>
+<p>Questions about the website? Contact our webmaster, <a href="mailto:sherry.zhou@yale.edu?subject=[DEMOS] Website Question">Sherry Zhou</a>. </p>
+
+
+<div id="bottomnav">
+<table border="0" cellpadding="0" cellspacing="0" width="830">
+  <tr>
+   <td><a href="index.html"><img name="template_bottomr1_c1" src="images/template/template_bottom-r1_c1.gif" width="327" height="38" border="0" alt=""></a></td>
+   <td><a href="about.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('template_bottomr1_c2','','images/template/template_bottom-r1_c2-2.gif',1);"><img name="template_bottomr1_c2" src="images/template/template_bottom-r1_c2.gif" width="51" height="38" border="0" alt=""></a></td>
+   <td><a href="programs.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('template_bottomr1_c3','','images/template/template_bottom-r1_c3-2.gif',1);"><img name="template_bottomr1_c3" src="images/template/template_bottom-r1_c3.gif" width="73" height="38" border="0" alt=""></a></td>
+   <td><a href="foryalestudents.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('template_bottomr1_c4','','images/template/template_bottom-r1_c4-2.gif',1);"><img name="template_bottomr1_c4" src="images/template/template_bottom-r1_c4.gif" width="120" height="38" border="0" alt=""></a></td>
+   <td><a href="forschools.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('template_bottomr1_c5','','images/template/template_bottom-r1_c5-2.gif',1);"><img name="template_bottomr1_c5" src="images/template/template_bottom-r1_c5.gif" width="88" height="38" border="0" alt=""></a></td>
+   <td><a href="contact.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('template_bottomr1_c6','','images/template/template_bottom-r1_c6-2.gif',1);"><img name="template_bottomr1_c6" src="images/template/template_bottom-r1_c6.gif" width="60" height="38" border="0" alt=""></a></td>
+   <td><img name="template_bottomr1_c7" src="images/template/template_bottom-r1_c7.gif" width="112" height="38" border="0" alt=""></td>
+  </tr>
+</table>
+
+</div><!-- #bottomnav -->
+
+</div><!-- #page -->
+<div id="bottomlinks"><a class="links" href="http://www.yale.edu/onhsa/science/index.html">Yale Science for the Community</a> | <a class="links" href="http://www.yale.edu/onhsa/youth.htm">Yale and New Haven Youth Programs</a> | <span class="bottomlinkstext">"This website is published by Yale College students and Yale University is not responsible for its contents."</span></div>
+
+  <script language="JavaScript">
+  <!-- hide 
+  if (document.images) {
+  templater1_c2_f2 = new Image(72 ,77); templater1_c2_f2.src = "images/template/template-r1_c2-2.gif";
+  templater1_c2_f1 = new Image(72 ,77); templater1_c2_f1.src = "images/template/template-r1_c2.gif";
+  templater1_c3_f2 = new Image(92 ,77); templater1_c3_f2.src = "images/template/template-r1_c3-2.gif";
+  templater1_c3_f1 = new Image(92 ,77); templater1_c3_f1.src = "images/template/template-r1_c3.gif";
+  templater1_c4_f2 = new Image(159 ,77); templater1_c4_f2.src = "images/template/template-r1_c4-2.gif";
+  templater1_c4_f1 = new Image(159 ,77); templater1_c4_f1.src = "images/template/template-r1_c4.gif";
+  templater1_c5_f2 = new Image(110 ,77); templater1_c5_f2.src = "images/template/template-r1_c5-2.gif";
+  templater1_c5_f1 = new Image(110 ,77); templater1_c5_f1.src = "images/template/template-r1_c5.gif";
+  templater1_c6_f2 = new Image(83 ,77); templater1_c6_f2.src = "images/template/template-r1_c6-2.gif";
+  templater1_c6_f1 = new Image(83 ,77); templater1_c6_f1.src = "images/template/template-r1_c6.gif";
+  template_bottomr1_c2_f2 = new Image(51 ,38); template_bottomr1_c2_f2.src = "images/template/template_bottom-r1_c2-2.gif";
+  template_bottomr1_c2_f1 = new Image(51 ,38); template_bottomr1_c2_f1.src = "images/template/template_bottom-r1_c2.gif";
+  template_bottomr1_c3_f2 = new Image(73 ,38); template_bottomr1_c3_f2.src = "images/template/template_bottom-r1_c3-2.gif";
+  template_bottomr1_c3_f1 = new Image(73 ,38); template_bottomr1_c3_f1.src = "images/template/template_bottom-r1_c3.gif";
+  template_bottomr1_c4_f2 = new Image(120 ,38); template_bottomr1_c4_f2.src = "images/template/template_bottom-r1_c4-2.gif";
+  template_bottomr1_c4_f1 = new Image(120 ,38); template_bottomr1_c4_f1.src = "images/template/template_bottom-r1_c4.gif";
+  template_bottomr1_c5_f2 = new Image(88 ,38); template_bottomr1_c5_f2.src = "images/template/template_bottom-r1_c5-2.gif";
+  template_bottomr1_c5_f1 = new Image(88 ,38); template_bottomr1_c5_f1.src = "images/template/template_bottom-r1_c5.gif";
+  template_bottomr1_c6_f2 = new Image(60 ,38); template_bottomr1_c6_f2.src = "images/template/template_bottom-r1_c6-2.gif";
+  template_bottomr1_c6_f1 = new Image(60 ,38); template_bottomr1_c6_f1.src = "images/template/template_bottom-r1_c6.gif";
+  }
+
+  // stop hiding -->
+  </script>
+
+
+</body>
+</html>

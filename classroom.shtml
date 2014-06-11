@@ -1,0 +1,539 @@
+<html>
+<head>
+<title>Demos: Making Science Fun!</title>
+<meta http-equiv="Content-Type" content="text/html;">
+
+<script language="JavaScript">
+<!-- hide
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+// stop hiding -->
+function clickclear(thisfield, defaulttext) {
+if (thisfield.value == defaulttext) {
+thisfield.value = "";
+}
+}
+
+function clickrecall(thisfield, defaulttext) {
+if (thisfield.value == "") {
+thisfield.value = defaulttext;
+}
+}
+
+function clickonoff(thisfield) {
+if (thisfield.value == "X") {
+thisfield.value = "";
+}
+else {
+thisfield.value = "X";
+}
+}
+
+</script>
+<LINK REL=StyleSheet HREF="style.css" TYPE="text/css" MEDIA=screen />
+<!----Google Analytics------>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18367536-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!----Google Analytics------>
+</head>
+<body bgcolor="#ffffff">
+
+<div id="page">
+
+<div id="topnav">
+<table border="0" cellpadding="0" cellspacing="0" width="830">
+
+  <tr>
+   <td><a href="index.html"><img name="templater1_c1" src="images/template/template-r1_c1.gif" width="298" height="77" border="0" alt=""></a></td>
+   <td><a href="about.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('templater1_c2','','images/template/template-r1_c2-2.gif',1);"><img name="templater1_c2" src="images/template/template-r1_c2.gif" width="72" height="77" border="0" alt=""></a></td>
+   <td><a href="programs.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('templater1_c3','','images/template/template-r1_c3-2.gif',1);"><img name="templater1_c3" src="images/template/template-r1_c3.gif" width="92" height="77" border="0" alt=""></a></td>
+   <td><a href="foryalestudents.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('templater1_c4','','images/template/template-r1_c4-2.gif',1);"><img name="templater1_c4" src="images/template/template-r1_c4.gif" width="159" height="77" border="0" alt=""></a></td>
+   <td><a href="forschools.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('templater1_c5','','images/template/template-r1_c5-2.gif',1);"><img name="templater1_c5" src="images/template/template-r1_c5.gif" width="110" height="77" border="0" alt=""></a></td>
+   <td><a href="contact.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('templater1_c6','','images/template/template-r1_c6-2.gif',1);"><img name="templater1_c6" src="images/template/template-r1_c6.gif" width="83" height="77" border="0" alt=""></a></td>
+   <td><img name="templater1_c7" src="images/template/template-r1_c7.gif" width="17" height="77" border="0" alt=""></td>
+  </tr>
+</table>
+</div><!-- #topnav -->
+
+<div id="content">
+<h1>Spring 2012 Classroom Sign Up</h1>
+<h2>Instructions</h2>
+<p>You will only go out once a week, but the more times you could possibly go, the easier it is to schedule everyone in a time that works for them. By joining Demos, you are <strong>making
+    a commitment</strong> to a classroom of 3rd - 5th graders. You are expected to teach the same class at the same time each week, with a group of 1-2 other Yale students.</p>
+<p>After scheduling, you will be contacted by a "School Coordinator", a Demos
+  board member who is familiar with the school at which you are volunteering.
+  They will provide you with more information about transportation, how to get
+  materials, and answer any questions you may have. There will be one short meeting
+  with your school coordinator before your first day in a classroom. They'll
+  also give you a Demos T-Shirt and binder.</p>
+<p>Any questions? Contact our co-coordinators,<a href="mailto:elizabeth.asai@yale.edu"> </a><a href="mailto:demos@dwighthall.org?subject=[DEMOS] Question">Elizabeth Asai</a> and <a href="mailto:demos@dwighthall.org?subject=[DEMOS] Question">Kaitlin Mclean</a>.</p>
+
+
+
+<h2>Sign Up Form</h2>
+
+
+<form name="form1" method="POST" action="http://aneeshr.100webspace.net/action.php">
+<input type="hidden" name="filename" id="filename" value="DemosS12.xls">
+<input type="hidden" name="mailcontact" id="mailcontact" value="yaledemoswebmaster@gmail.com">
+<input type="hidden" name="mailsubject" id="mailsubject" value="Demos Sign-Up">
+<input type="hidden" name="homepage" id="homepage" value="http://www.yale.edu/demos">
+
+<table width="54%" class="form">
+<tr><td nowrap><h2>General Information</h2></td></tr>
+<tr><td>
+  <tr>
+    <td nowrap><strong>Name</strong></td>
+    <td ><input name="name" type="text" class="text" id="name" size="40"></td>
+    </tr>
+  <tr>
+    <td nowrap><strong>E-mail</strong></td>
+
+    <td><input name="email" type="text" class="text" id="email" size="40"></td>
+    </tr>
+    
+      <tr>
+    <td nowrap><strong>Phone</strong></td>
+    <td><p>
+          <input name="phone" type="text" class="text" id="phone" size="40" maxlength="10">
+    </p>
+      <p>      (Ten digits, no parentheses or dashes.)</p></td>
+    </tr>
+</table>
+
+<table width="125%" class="form">
+<tr><td><h2>Available Times</h2></td></tr>
+<tr><td><p class="quote">Please indicate <strong>all</strong> times that you
+      are <strong>available</strong> to volunteer by clicking on the boxes.  It
+      helps us immensely in matching up the most possible volunteers with the
+      most possible classrooms.<br />
+      <br /><span class="tech">Marking 1:00 but not 12:30 means that you can leave campus at 1:00. Similarly, marking "2:00-2:30" but not "2:30-3:00" means that you need to be back on campus by 2:30.</span><br /><br />For scheduling purposes, please mark blocks of at least 1.5 hours in length. <br /><br />You will be able to enter your <strong>preferences</strong> below to tell us at which times you would most like to volunteer. We will do our best to schedule you for your preferred time.</p></td></tr>
+</table>
+
+<table class="form" style="padding-left:25px;">
+  <tr>
+    <td width="125" valign="top" nowrap><p><strong>Monday</strong>
+      </p>
+      <p>
+        <input name="M10" type="text" class="textselector" id="M10" size="1" onClick="clickonoff(this)" maxlength="1">
+10:00-10:30</p>
+      <p>
+        <input name="M1030" type="text" class="textselector" id="M1030" size="1" onClick="clickonoff(this)" maxlength="1">
+        10:30-11:00      </p>
+      <p>
+
+        <input name="M11" type="text" class="textselector" id="M11" size="1" onClick="clickonoff(this)" maxlength="1">
+11:00-11:30</p>
+      <p>
+        <input name="M1130" type="text" class="textselector" id="M1130" size="1" onClick="clickonoff(this)" maxlength="1">
+11:30-12:00</p>
+      <p>        <input name="M12" type="text" class="textselector" id="M12" size="1" onClick="clickonoff(this)" maxlength="1">
+12:00-12:30</p>
+      <p>
+
+        <input name="M1230" type="text" class="textselector" id="M1230" size="1" onClick="clickonoff(this)" maxlength="1">
+12:30-1:00</p>
+      <p>
+        <input name="M1" type="text" class="textselector" id="M1" size="1" onClick="clickonoff(this)" maxlength="1">
+1:00-1:30</p>
+      <p>
+        <input name="M130" type="text" class="textselector" id="M130" size="1" onClick="clickonoff(this)" maxlength="1">
+1:30-2:00</p>
+      <p>
+
+        <input name="M2" type="text" class="textselector" id="M2" size="1" onClick="clickonoff(this)" maxlength="1">
+2:00-2:30</p>
+      <p>
+        <input name="M230" type="text" class="textselector" id="M230" size="1" onClick="clickonoff(this)" maxlength="1"> 
+        2:30-3:00</p>
+      <p>
+        <input name="M3" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+3:00-3:30</p>
+<p>
+        <input name="M330" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+3:30-4:00</p>
+<p>
+        <input name="M4" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+4:00-4:30</p>
+<p>
+        <input name="M430" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+4:30-5:00</p>
+
+<p>
+        <input name="M5" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+5:00-5:30</p>
+</td>
+    <td width="125" valign="top" nowrap><p><strong>Tuesday</strong>
+      </p>
+      <p>
+        <input name="Tu10" type="text" class="textselector" id="M102" size="1" onClick="clickonoff(this)" maxlength="1">
+        10:00-10:30</p>
+      <p>
+        <input name="Tu1030" type="text" class="textselector" id="M10302" size="1" onClick="clickonoff(this)" maxlength="1">
+        10:30-11:00 </p>
+
+      <p>
+        <input name="Tu11" type="text" class="textselector" id="M112" size="1" onClick="clickonoff(this)" maxlength="1">
+        11:00-11:30</p>
+      <p>
+        <input name="Tu1130" type="text" class="textselector" id="M11302" size="1" onClick="clickonoff(this)" maxlength="1">
+        11:30-12:00</p>
+      <p>
+        <input name="Tu12" type="text" class="textselector" id="M122" size="1" onClick="clickonoff(this)" maxlength="1">
+
+        12:00-12:30</p>
+      <p>
+        <input name="Tu1230" type="text" class="textselector" id="M12302" size="1" onClick="clickonoff(this)" maxlength="1">
+        12:30-1:00</p>
+      <p>
+        <input name="Tu1" type="text" class="textselector" id="M13" size="1" onClick="clickonoff(this)" maxlength="1">
+        1:00-1:30</p>
+
+      <p>
+        <input name="Tu130" type="text" class="textselector" id="M1302" size="1" onClick="clickonoff(this)" maxlength="1">
+        1:30-2:00</p>
+      <p>
+        <input name="Tu2" type="text" class="textselector" id="M22" size="1" onClick="clickonoff(this)" maxlength="1">
+        2:00-2:30</p>
+      <p>
+        <input name="Tu230" type="text" class="textselector" id="M2302" size="1" onClick="clickonoff(this)" maxlength="1">
+
+        2:30-3:00</p>
+      <p>
+        <input name="Tu3" type="text" class="textselector" id="M32" size="1" onClick="clickonoff(this)" maxlength="1">
+        3:00-3:30</p>
+		<p>
+        <input name="Tu330" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+3:30-4:00</p>
+<p>
+        <input name="Tu4" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+4:00-4:30</p>
+<p>
+        <input name="Tu430" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+4:30-5:00</p>
+      
+<p>
+        <input name="Tu5" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+        5:00-5:30</p></td>
+    <td width="125" valign="top" nowrap><p><strong>Wednesday</strong>
+      </p>
+
+      <p>
+        <input name="W10" type="text" class="textselector" id="M103" size="1" onClick="clickonoff(this)" maxlength="1">
+        10:00-10:30</p>
+      <p>
+        <input name="W1030" type="text" class="textselector" id="M10303" size="1" onClick="clickonoff(this)" maxlength="1">
+        10:30-11:00 </p>
+      <p>
+        <input name="W11" type="text" class="textselector" id="M113" size="1" onClick="clickonoff(this)" maxlength="1">
+
+        11:00-11:30</p>
+      <p>
+        <input name="W1130" type="text" class="textselector" id="M11303" size="1" onClick="clickonoff(this)" maxlength="1">
+        11:30-12:00</p>
+      <p>
+        <input name="W12" type="text" class="textselector" id="M123" size="1" onClick="clickonoff(this)" maxlength="1">
+        12:00-12:30</p>
+
+      <p>
+        <input name="W1230" type="text" class="textselector" id="M12303" size="1" onClick="clickonoff(this)" maxlength="1">
+        12:30-1:00</p>
+      <p>
+        <input name="W1" type="text" class="textselector" id="M14" size="1" onClick="clickonoff(this)" maxlength="1">
+        1:00-1:30</p>
+      <p>
+        <input name="W130" type="text" class="textselector" id="M1303" size="1" onClick="clickonoff(this)" maxlength="1">
+
+        1:30-2:00</p>
+      <p>
+        <input name="W2" type="text" class="textselector" id="M23" size="1" onClick="clickonoff(this)" maxlength="1">
+        2:00-2:30</p>
+      <p>
+        <input name="W230" type="text" class="textselector" id="M2303" size="1" onClick="clickonoff(this)" maxlength="1">
+        2:30-3:00</p>
+
+      <p>
+        <input name="W3" type="text" class="textselector" id="M33" size="1" onClick="clickonoff(this)" maxlength="1">
+        3:00-3:30</p>
+		
+		<p>
+        <input name="W330" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+3:30-4:00</p>
+<p>
+        <input name="W4" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+4:00-4:30</p>
+<p>
+        <input name="W430" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+4:30-5:00</p>
+      
+      <p>
+        <input name="W5" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+        5:00-5:30</p>
+      
+      </td>
+    <td width="125" valign="top" nowrap><p><strong>Thursday</strong>
+      </p>
+
+      <p>
+        <input name="Th10" type="text" class="textselector" id="M104" size="1" onClick="clickonoff(this)" maxlength="1">
+
+        10:00-10:30</p>
+      <p>
+        <input name="Th1030" type="text" class="textselector" id="M10304" size="1" onClick="clickonoff(this)" maxlength="1">
+        10:30-11:00 </p>
+      <p>
+        <input name="Th11" type="text" class="textselector" id="M114" size="1" onClick="clickonoff(this)" maxlength="1">
+        11:00-11:30</p>
+
+      <p>
+        <input name="Th1130" type="text" class="textselector" id="M11304" size="1" onClick="clickonoff(this)" maxlength="1">
+        11:30-12:00</p>
+      <p>
+        <input name="Th12" type="text" class="textselector" id="M124" size="1" onClick="clickonoff(this)" maxlength="1">
+        12:00-12:30</p>
+      <p>
+        <input name="Th1230" type="text" class="textselector" id="M12304" size="1" onClick="clickonoff(this)" maxlength="1">
+
+        12:30-1:00</p>
+      <p>
+        <input name="Th1" type="text" class="textselector" id="M15" size="1" onClick="clickonoff(this)" maxlength="1">
+        1:00-1:30</p>
+      <p>
+        <input name="Th130" type="text" class="textselector" id="M1304" size="1" onClick="clickonoff(this)" maxlength="1">
+        1:30-2:00</p>
+
+      <p>
+        <input name="Th2" type="text" class="textselector" id="M24" size="1" onClick="clickonoff(this)" maxlength="1">
+        2:00-2:30</p>
+      <p>
+        <input name="Th230" type="text" class="textselector" id="M2304" size="1" onClick="clickonoff(this)" maxlength="1">
+        2:30-3:00</p>
+      <p>
+        <input name="Th3" type="text" class="textselector" id="M34" size="1" onClick="clickonoff(this)" maxlength="1">
+
+        3:00-3:30</p>
+		<p>
+        <input name="Th330" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+3:30-4:00</p>
+<p>
+        <input name="Th4" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+4:00-4:30</p>
+<p>
+        <input name="Th430" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+4:30-5:00</p>
+
+<p>
+        <input name="Th5" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+5:00-5:30</p>
+      </td>
+    <td width="125" valign="top" nowrap><p><strong>Friday</strong>
+      </p>
+      <p>
+        <input name="F10" type="text" class="textselector" id="M105" size="1" onClick="clickonoff(this)" maxlength="1">
+        10:00-10:30</p>
+      <p>
+
+        <input name="F1030" type="text" class="textselector" id="M10305" size="1" onClick="clickonoff(this)" maxlength="1">
+        10:30-11:00 </p>
+      <p>
+        <input name="F11" type="text" class="textselector" id="M115" size="1" onClick="clickonoff(this)" maxlength="1">
+        11:00-11:30</p>
+      <p>
+        <input name="F1130" type="text" class="textselector" id="M11305" size="1" onClick="clickonoff(this)" maxlength="1">
+        11:30-12:00</p>
+
+      <p>
+        <input name="F12" type="text" class="textselector" id="M125" size="1" onClick="clickonoff(this)" maxlength="1">
+        12:00-12:30</p>
+      <p>
+        <input name="F1230" type="text" class="textselector" id="M12305" size="1" onClick="clickonoff(this)" maxlength="1">
+        12:30-1:00</p>
+      <p>
+        <input name="F1" type="text" class="textselector" id="M16" size="1" onClick="clickonoff(this)" maxlength="1">
+
+        1:00-1:30</p>
+      <p>
+        <input name="F130" type="text" class="textselector" id="M1305" size="1" onClick="clickonoff(this)" maxlength="1">
+        1:30-2:00</p>
+      <p>
+        <input name="F2" type="text" class="textselector" id="M25" size="1" onClick="clickonoff(this)" maxlength="1">
+        2:00-2:30</p>
+
+      <p>
+        <input name="F230" type="text" class="textselector" id="M2305" size="1" onClick="clickonoff(this)" maxlength="1">
+        2:30-3:00</p>
+      <p>
+        <input name="F3" type="text" class="textselector" id="M35" size="1" onClick="clickonoff(this)" maxlength="1">
+        3:00-3:30</p>
+		<p>
+        <input name="F330" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+3:30-4:00</p>
+<p>
+        <input name="F4" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+4:00-4:30</p>
+<p>
+        <input name="F430" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+4:30-5:00</p>
+
+<p>
+        <input name="F5" type="text" class="textselector" id="M3" size="1" onClick="clickonoff(this)" maxlength="1">
+5:00-5:30</p>
+      </td>
+    </tr>
+    </table>
+    <table class="form">
+  <tr><td><h2>Preferences</h2></td></tr>
+<tr><td></td><td><p>We will do our best to match your preferences.
+  <tr>
+    <td nowrap><strong>1st Choice Time </strong></td>
+    <td ><input name="firstChoice" type="text" class="text" id="firstChoice" value="Please indicate your first choice time slot." onClick="clickclear(this, 'Please indicate your first choice time slot.')" onBlur="clickrecall(this, 'Please indicate your first choice time slot.')" size="60"><br />e.g.: <em>Thursdays before Noon.</td>
+  </tr>
+  <tr>
+    <td nowrap><strong>2nd Choice Time </strong></td>
+
+    <td ><input name="secondChoice" type="text" class="text" id="secondChoice" value="Please indicate your second choice time slot." onClick="clickclear(this, 'Please indicate your second choice time slot.')" onBlur="clickrecall(this, 'Please indicate your second choice time slot.')" size="60"></td>
+  </tr>
+  <tr>
+    <td nowrap><strong>3rd Choice Time </strong></td>
+    <td ><input name="thirdChoice" type="text" class="text" id="thirdChoice" value="Please indicate your third choice time slot." onClick="clickclear(this, 'Please indicate your third choice time slot.')" onBlur="clickrecall(this, 'Please indicate your third choice time slot.')" size="60"></td>
+  </tr>
+  
+    <tr>
+
+    <td nowrap><strong>Partner Preference </strong></td>
+    <td><input name="partnerpref" type="text" class="text" id="partnerpref" value="Please indicate if you would like to work with a specific partner(s)." onClick="clickclear(this, 'Please indicate if you would like to work with a specific partner(s).')" onBlur="clickrecall(this, 'Please indicate if you would like to work with a specific partner(s).')" size="60"></td>
+  </tr>
+  <tr><td></td><td>Please click here if you are signing up on behalf of your partner. If you check this box, your partner should<strong> have the same time availability as you do.</strong> They will not need to complete this form.&nbsp;<input name="doublesignup" type="text" class="textselector" id="doublesignup" size="1" onClick="clickonoff(this)" maxlength="1"></td>
+    <tr>
+    <td><strong>Classroom Preference </strong></td>
+    <td><input name="classpref" type="text" class="text" id="classpref" value="Please indicate if you would like to work with a specific teacher/school." onClick="clickclear(this, 'Please indicate if you would like to work with a specific teacher/school.')" onBlur="clickrecall(this, 'Please indicate if you would like to work with a specific teacher/school.')" size="60"></td>
+  </tr>
+      <tr><td ><strong>Spanish Language Ability:</strong></td>
+    <td><p><input type="radio" name="spanish" value="none"> None&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="spanish" value="a little"> A little&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="spanish" value="a lot"> A lot</p>
+    	</td></tr>
+    	<tr><td></td><td><p>NOTE: <strong>All classes will be taught in English</strong>, but some Spanish language skills may be helpful in some classrooms.</p></td></tr>
+	<tr>
+	<td><strong>Demos Experience:</strong></td>
+    
+    <td><p><input type="radio" name="experience" value="Rookie"> 
+      Rookie&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" name="experience" value="Veteran">
+       Veteran</p>
+    	</td></tr>
+<tr>
+<td colspan="2"><p><strong>Choose All of the Following Programs You Would Like to Participate In</strong>:</p></td>
+</tr>
+      <tr><td><strong>&nbsp;Classrooms:</strong></td>
+    <td>Our traditional  program of sending pairs of volunteers into an assigned classroom once per week  every semester. 
+       &nbsp;
+       <input name="car" type="text" class="textselector" id="car" size="1" onClick="clickonoff(this)" maxlength="1">
+    	</td></tr>
+
+<tr><td><strong>Assemblies:</strong></td>
+    <td>An additional Demos program is Assemblies.  A group of volunteers go out to local schools and do shows in front of hundreds of excited students, usually on Friday afternoons.  Please click here if you are interested in hearing more about this program. &nbsp;
+<input name="Assemblies" type="text" class="textselector" id="car" size="1" onClick="clickonoff(this)" maxlength="1">
+    	</td></tr>
+
+
+<tr><td><strong>StarLab:</strong></td>
+    <td>Demos is the proud owner of a travelling, inflatable planetarium. In the StarLab program, a group of volunteers brings this planetarium to a different classroom in the New Haven area each week to give an awe-inspiring hour-long presentation about gravity, stars, and galaxies.  Please click here if you are interested in hearing more about this program.&nbsp;
+      <input name="Planetarium" type="text" class="textselector" id="car" size="1" onClick="clickonoff(this)" maxlength="1">
+    	</td></tr>
+
+  <tr><td><strong>Comments:</strong></td><td><textarea rows="3" cols="40" name="comments"></textarea></td></tr>
+  
+<tr><td colspan="2"><p class="quote">We will contact you soon with placement
+      information. You will begin in a classroom the week of Saturday, January 21, 2012.
+      </p></td></tr>
+  
+  <tr>
+      <td colspan="2"><center>
+
+      <p>
+        <input type="submit" class="submit" name="Submit" value="Submit">
+</p>
+<p>Please click submit. If your form has submitted correctly, a CONFIRMATION PAGE will appear.</p>
+      </center></td>
+    </tr>
+
+</table>
+</form>
+
+
+
+</div><!-- #content -->
+
+<div id="bottomnav">
+<table border="0" cellpadding="0" cellspacing="0" width="830">
+  <tr>
+   <td><a href="index.html"><img name="template_bottomr1_c1" src="images/template/template_bottom-r1_c1.gif" width="327" height="38" border="0" alt=""></a></td>
+   <td><a href="about.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('template_bottomr1_c2','','images/template/template_bottom-r1_c2-2.gif',1);"><img name="template_bottomr1_c2" src="images/template/template_bottom-r1_c2.gif" width="51" height="38" border="0" alt=""></a></td>
+   <td><a href="programs.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('template_bottomr1_c3','','images/template/template_bottom-r1_c3-2.gif',1);"><img name="template_bottomr1_c3" src="images/template/template_bottom-r1_c3.gif" width="73" height="38" border="0" alt=""></a></td>
+   <td><a href="foryalestudents.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('template_bottomr1_c4','','images/template/template_bottom-r1_c4-2.gif',1);"><img name="template_bottomr1_c4" src="images/template/template_bottom-r1_c4.gif" width="120" height="38" border="0" alt=""></a></td>
+   <td><a href="forschools.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('template_bottomr1_c5','','images/template/template_bottom-r1_c5-2.gif',1);"><img name="template_bottomr1_c5" src="images/template/template_bottom-r1_c5.gif" width="88" height="38" border="0" alt=""></a></td>
+   <td><a href="contact.html" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('template_bottomr1_c6','','images/template/template_bottom-r1_c6-2.gif',1);"><img name="template_bottomr1_c6" src="images/template/template_bottom-r1_c6.gif" width="60" height="38" border="0" alt=""></a></td>
+   <td><img name="template_bottomr1_c7" src="images/template/template_bottom-r1_c7.gif" width="112" height="38" border="0" alt=""></td>
+  </tr>
+</table>
+
+</div><!-- #bottomnav -->
+
+</div><!-- #page -->
+<div id="bottomlinks"><a class="links" href="http://www.yale.edu/onhsa/science/index.html">Yale Science for the Community</a> | <a class="links" href="http://www.yale.edu/onhsa/youth.htm">Yale and New Haven Youth Programs</a> | <span class="bottomlinkstext">"This website is published by Yale College students and Yale University is not responsible for its contents."</span></div>
+
+  <script language="JavaScript">
+  <!-- hide 
+  if (document.images) {
+  templater1_c2_f2 = new Image(72 ,77); templater1_c2_f2.src = "images/template/template-r1_c2-2.gif";
+  templater1_c2_f1 = new Image(72 ,77); templater1_c2_f1.src = "images/template/template-r1_c2.gif";
+  templater1_c3_f2 = new Image(92 ,77); templater1_c3_f2.src = "images/template/template-r1_c3-2.gif";
+  templater1_c3_f1 = new Image(92 ,77); templater1_c3_f1.src = "images/template/template-r1_c3.gif";
+  templater1_c4_f2 = new Image(159 ,77); templater1_c4_f2.src = "images/template/template-r1_c4-2.gif";
+  templater1_c4_f1 = new Image(159 ,77); templater1_c4_f1.src = "images/template/template-r1_c4.gif";
+  templater1_c5_f2 = new Image(110 ,77); templater1_c5_f2.src = "images/template/template-r1_c5-2.gif";
+  templater1_c5_f1 = new Image(110 ,77); templater1_c5_f1.src = "images/template/template-r1_c5.gif";
+  templater1_c6_f2 = new Image(83 ,77); templater1_c6_f2.src = "images/template/template-r1_c6-2.gif";
+  templater1_c6_f1 = new Image(83 ,77); templater1_c6_f1.src = "images/template/template-r1_c6.gif";
+  template_bottomr1_c2_f2 = new Image(51 ,38); template_bottomr1_c2_f2.src = "images/template/template_bottom-r1_c2-2.gif";
+  template_bottomr1_c2_f1 = new Image(51 ,38); template_bottomr1_c2_f1.src = "images/template/template_bottom-r1_c2.gif";
+  template_bottomr1_c3_f2 = new Image(73 ,38); template_bottomr1_c3_f2.src = "images/template/template_bottom-r1_c3-2.gif";
+  template_bottomr1_c3_f1 = new Image(73 ,38); template_bottomr1_c3_f1.src = "images/template/template_bottom-r1_c3.gif";
+  template_bottomr1_c4_f2 = new Image(120 ,38); template_bottomr1_c4_f2.src = "images/template/template_bottom-r1_c4-2.gif";
+  template_bottomr1_c4_f1 = new Image(120 ,38); template_bottomr1_c4_f1.src = "images/template/template_bottom-r1_c4.gif";
+  template_bottomr1_c5_f2 = new Image(88 ,38); template_bottomr1_c5_f2.src = "images/template/template_bottom-r1_c5-2.gif";
+  template_bottomr1_c5_f1 = new Image(88 ,38); template_bottomr1_c5_f1.src = "images/template/template_bottom-r1_c5.gif";
+  template_bottomr1_c6_f2 = new Image(60 ,38); template_bottomr1_c6_f2.src = "images/template/template_bottom-r1_c6-2.gif";
+  template_bottomr1_c6_f1 = new Image(60 ,38); template_bottomr1_c6_f1.src = "images/template/template_bottom-r1_c6.gif";
+  }
+
+  // stop hiding -->
+  </script>
+
+
+</body>
+</html>
