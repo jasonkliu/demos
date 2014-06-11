@@ -51,9 +51,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_9048746736.jpg' height='506' width='675' size='large' />
-			<rendition src='images/medium/_9048746736.jpg' height='375' width='500' size='medium' />
-			<rendition src='images/thumb/_9048746736.jpg' height='51' width='69' size='thumb' />
+			<rendition src='../images/f10photos/_9048746736.jpg' height='506' width='675' size='large' />
+			<rendition src='../images/f10photos/_9048746736.jpg' height='375' width='500' size='medium' />
+			<rendition src='../images/f10photos/_9048746736.jpg' height='51' width='69' size='thumb' />
 		</renditions>
 	</item>
 
@@ -66,9 +66,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_8844850326.jpg' height='506' width='675' size='large' />
-			<rendition src='images/medium/_8844850326.jpg' height='375' width='500' size='medium' />
-			<rendition src='images/thumb/_8844850326.jpg' height='51' width='69' size='thumb' />
+			<rendition src='../images/f10photos/_8844850326.jpg' height='506' width='675' size='large' />
+			<rendition src='../images/f10photos/_8844850326.jpg' height='375' width='500' size='medium' />
+			<rendition src='../images/f10photos/_8844850326.jpg' height='51' width='69' size='thumb' />
 		</renditions>
 	</item>
 
@@ -81,9 +81,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_8222868033.jpg' height='506' width='675' size='large' />
-			<rendition src='images/medium/_8222868033.jpg' height='375' width='500' size='medium' />
-			<rendition src='images/thumb/_8222868033.jpg' height='51' width='69' size='thumb' />
+			<rendition src='../images/f10photos/_8222868033.jpg' height='506' width='675' size='large' />
+			<rendition src='../images/f10photos/_8222868033.jpg' height='375' width='500' size='medium' />
+			<rendition src='../images/f10photos/_8222868033.jpg' height='51' width='69' size='thumb' />
 		</renditions>
 	</item>
 
@@ -96,9 +96,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_5741912883.jpg' height='506' width='675' size='large' />
-			<rendition src='images/medium/_5741912883.jpg' height='375' width='500' size='medium' />
-			<rendition src='images/thumb/_5741912883.jpg' height='51' width='69' size='thumb' />
+			<rendition src='../images/f10photos/_5741912883.jpg' height='506' width='675' size='large' />
+			<rendition src='../images/f10photos/_5741912883.jpg' height='375' width='500' size='medium' />
+			<rendition src='../images/f10photos/_5741912883.jpg' height='51' width='69' size='thumb' />
 		</renditions>
 	</item>
 
@@ -111,9 +111,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_7048885880.jpg' height='506' width='675' size='large' />
-			<rendition src='images/medium/_7048885880.jpg' height='375' width='500' size='medium' />
-			<rendition src='images/thumb/_7048885880.jpg' height='51' width='69' size='thumb' />
+			<rendition src='../images/f10photos/_7048885880.jpg' height='506' width='675' size='large' />
+			<rendition src='../images/f10photos/_7048885880.jpg' height='375' width='500' size='medium' />
+			<rendition src='../images/f10photos/_7048885880.jpg' height='51' width='69' size='thumb' />
 		</renditions>
 	</item>
 
@@ -126,9 +126,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_4583169001.jpg' height='675' width='506' size='large' />
-			<rendition src='images/medium/_4583169001.jpg' height='500' width='375' size='medium' />
-			<rendition src='images/thumb/_4583169001.jpg' height='69' width='51' size='thumb' />
+			<rendition src='../images/f10photos/_4583169001.jpg' height='675' width='506' size='large' />
+			<rendition src='../images/f10photos/_4583169001.jpg' height='500' width='375' size='medium' />
+			<rendition src='../images/f10photos/_4583169001.jpg' height='69' width='51' size='thumb' />
 		</renditions>
 	</item>
 
@@ -141,9 +141,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_4102684587.jpg' height='675' width='506' size='large' />
-			<rendition src='images/medium/_4102684587.jpg' height='500' width='375' size='medium' />
-			<rendition src='images/thumb/_4102684587.jpg' height='69' width='51' size='thumb' />
+			<rendition src='../images/f10photos/_4102684587.jpg' height='675' width='506' size='large' />
+			<rendition src='../images/f10photos/_4102684587.jpg' height='500' width='375' size='medium' />
+			<rendition src='../images/f10photos/_4102684587.jpg' height='69' width='51' size='thumb' />
 		</renditions>
 	</item>
 
@@ -156,9 +156,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_7525360091.jpg' height='506' width='675' size='large' />
-			<rendition src='images/medium/_7525360091.jpg' height='375' width='500' size='medium' />
-			<rendition src='images/thumb/_7525360091.jpg' height='51' width='69' size='thumb' />
+			<rendition src='../images/f10photos/_7525360091.jpg' height='506' width='675' size='large' />
+			<rendition src='../images/f10photos/_7525360091.jpg' height='375' width='500' size='medium' />
+			<rendition src='../images/f10photos/_7525360091.jpg' height='51' width='69' size='thumb' />
 		</renditions>
 	</item>
 
@@ -171,9 +171,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_5781124523.jpg' height='675' width='506' size='large' />
-			<rendition src='images/medium/_5781124523.jpg' height='500' width='375' size='medium' />
-			<rendition src='images/thumb/_5781124523.jpg' height='69' width='51' size='thumb' />
+			<rendition src='../images/f10photos/_5781124523.jpg' height='675' width='506' size='large' />
+			<rendition src='../images/f10photos/_5781124523.jpg' height='500' width='375' size='medium' />
+			<rendition src='../images/f10photos/_5781124523.jpg' height='69' width='51' size='thumb' />
 		</renditions>
 	</item>
 
@@ -186,9 +186,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_6373908570.jpg' height='675' width='506' size='large' />
-			<rendition src='images/medium/_6373908570.jpg' height='500' width='375' size='medium' />
-			<rendition src='images/thumb/_6373908570.jpg' height='69' width='51' size='thumb' />
+			<rendition src='../images/f10photos/_6373908570.jpg' height='675' width='506' size='large' />
+			<rendition src='../images/f10photos/_6373908570.jpg' height='500' width='375' size='medium' />
+			<rendition src='../images/f10photos/_6373908570.jpg' height='69' width='51' size='thumb' />
 		</renditions>
 	</item>
 
@@ -201,9 +201,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_2328301657.jpg' height='675' width='506' size='large' />
-			<rendition src='images/medium/_2328301657.jpg' height='500' width='375' size='medium' />
-			<rendition src='images/thumb/_2328301657.jpg' height='69' width='51' size='thumb' />
+			<rendition src='../images/f10photos/_2328301657.jpg' height='675' width='506' size='large' />
+			<rendition src='../images/f10photos/_2328301657.jpg' height='500' width='375' size='medium' />
+			<rendition src='../images/f10photos/_2328301657.jpg' height='69' width='51' size='thumb' />
 		</renditions>
 	</item>
 
@@ -216,9 +216,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_4360019626.jpg' height='506' width='675' size='large' />
-			<rendition src='images/medium/_4360019626.jpg' height='375' width='500' size='medium' />
-			<rendition src='images/thumb/_4360019626.jpg' height='51' width='69' size='thumb' />
+			<rendition src='../images/f10photos/_4360019626.jpg' height='506' width='675' size='large' />
+			<rendition src='../images/f10photos/_4360019626.jpg' height='375' width='500' size='medium' />
+			<rendition src='../images/f10photos/_4360019626.jpg' height='51' width='69' size='thumb' />
 		</renditions>
 	</item>
 
@@ -231,9 +231,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_4212123523.jpg' height='675' width='506' size='large' />
-			<rendition src='images/medium/_4212123523.jpg' height='500' width='375' size='medium' />
-			<rendition src='images/thumb/_4212123523.jpg' height='69' width='51' size='thumb' />
+			<rendition src='../images/f10photos/_4212123523.jpg' height='675' width='506' size='large' />
+			<rendition src='../images/f10photos/_4212123523.jpg' height='500' width='375' size='medium' />
+			<rendition src='../images/f10photos/_4212123523.jpg' height='69' width='51' size='thumb' />
 		</renditions>
 	</item>
 
@@ -246,9 +246,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_7234180544.jpg' height='506' width='675' size='large' />
-			<rendition src='images/medium/_7234180544.jpg' height='375' width='500' size='medium' />
-			<rendition src='images/thumb/_7234180544.jpg' height='51' width='69' size='thumb' />
+			<rendition src='../images/f10photos/_7234180544.jpg' height='506' width='675' size='large' />
+			<rendition src='../images/f10photos/_7234180544.jpg' height='375' width='500' size='medium' />
+			<rendition src='../images/f10photos/_7234180544.jpg' height='51' width='69' size='thumb' />
 		</renditions>
 	</item>
 
@@ -261,9 +261,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_5373158235.jpg' height='675' width='506' size='large' />
-			<rendition src='images/medium/_5373158235.jpg' height='500' width='375' size='medium' />
-			<rendition src='images/thumb/_5373158235.jpg' height='69' width='51' size='thumb' />
+			<rendition src='../images/f10photos/_5373158235.jpg' height='675' width='506' size='large' />
+			<rendition src='../images/f10photos/_5373158235.jpg' height='500' width='375' size='medium' />
+			<rendition src='../images/f10photos/_5373158235.jpg' height='69' width='51' size='thumb' />
 		</renditions>
 	</item>
 
@@ -276,9 +276,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_1246894646.jpg' height='506' width='675' size='large' />
-			<rendition src='images/medium/_1246894646.jpg' height='375' width='500' size='medium' />
-			<rendition src='images/thumb/_1246894646.jpg' height='51' width='69' size='thumb' />
+			<rendition src='../images/f10photos/_1246894646.jpg' height='506' width='675' size='large' />
+			<rendition src='../images/f10photos/_1246894646.jpg' height='375' width='500' size='medium' />
+			<rendition src='../images/f10photos/_1246894646.jpg' height='51' width='69' size='thumb' />
 		</renditions>
 	</item>
 
@@ -291,9 +291,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_6202187926.jpg' height='506' width='675' size='large' />
-			<rendition src='images/medium/_6202187926.jpg' height='375' width='500' size='medium' />
-			<rendition src='images/thumb/_6202187926.jpg' height='51' width='69' size='thumb' />
+			<rendition src='../images/f10photos/_6202187926.jpg' height='506' width='675' size='large' />
+			<rendition src='../images/f10photos/_6202187926.jpg' height='375' width='500' size='medium' />
+			<rendition src='../images/f10photos/_6202187926.jpg' height='51' width='69' size='thumb' />
 		</renditions>
 	</item>
 
@@ -306,9 +306,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_1002934362.jpg' height='506' width='675' size='large' />
-			<rendition src='images/medium/_1002934362.jpg' height='375' width='500' size='medium' />
-			<rendition src='images/thumb/_1002934362.jpg' height='51' width='69' size='thumb' />
+			<rendition src='../images/f10photos/_1002934362.jpg' height='506' width='675' size='large' />
+			<rendition src='../images/f10photos/_1002934362.jpg' height='375' width='500' size='medium' />
+			<rendition src='../images/f10photos/_1002934362.jpg' height='51' width='69' size='thumb' />
 		</renditions>
 	</item>
 
@@ -321,9 +321,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_0407376048.jpg' height='506' width='675' size='large' />
-			<rendition src='images/medium/_0407376048.jpg' height='375' width='500' size='medium' />
-			<rendition src='images/thumb/_0407376048.jpg' height='51' width='69' size='thumb' />
+			<rendition src='../images/f10photos/_0407376048.jpg' height='506' width='675' size='large' />
+			<rendition src='../images/f10photos/_0407376048.jpg' height='375' width='500' size='medium' />
+			<rendition src='../images/f10photos/_0407376048.jpg' height='51' width='69' size='thumb' />
 		</renditions>
 	</item>
 
@@ -336,9 +336,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_5203110108.jpg' height='166' width='221' size='large' />
-			<rendition src='images/medium/_5203110108.jpg' height='166' width='221' size='medium' />
-			<rendition src='images/thumb/_5203110108.jpg' height='51' width='69' size='thumb' />
+			<rendition src='../images/f10photos/_5203110108.jpg' height='166' width='221' size='large' />
+			<rendition src='../images/f10photos/_5203110108.jpg' height='166' width='221' size='medium' />
+			<rendition src='../images/f10photos/_5203110108.jpg' height='51' width='69' size='thumb' />
 		</renditions>
 	</item>
 
@@ -351,9 +351,9 @@
 		<imageId image='' dbtype='' dbname='' />
 		<mediaType category='image' format='jpeg' />
 		<renditions>
-			<rendition src='images/large/_0211559903.jpg' height='506' width='675' size='large' />
-			<rendition src='images/medium/_0211559903.jpg' height='375' width='500' size='medium' />
-			<rendition src='images/thumb/_0211559903.jpg' height='51' width='69' size='thumb' />
+			<rendition src='../images/f10photos/_0211559903.jpg' height='506' width='675' size='large' />
+			<rendition src='../images/f10photos/_0211559903.jpg' height='375' width='500' size='medium' />
+			<rendition src='../images/f10photos/_0211559903.jpg' height='51' width='69' size='thumb' />
 		</renditions>
 	</item>
 
