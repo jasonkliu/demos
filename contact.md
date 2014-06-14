@@ -8,35 +8,38 @@ If you have any questions, please contact us!
 
 Co-Coordinators 
 --------------- 
-- [Stacy Scheuneman](mailto:demos@dwighthall.org?subject=[DEMOS] Question)  
-- [John Klement](mailto:demos@dwighthall.org?subject=[DEMOS] Question)  
+- [Eric Chen](mailto:eric.chen@yale.edu)
+- [Rain Tsong](mailto:rain.tsong@yale.edu)
 
 School Coordinators  
 -------------------
-- [Kenneth Gunasekera](mailto:kenneth.gunasekera@yale.edu)  
 - [Christina de Fontnouvelle](mailto:christina.defontnouvelle@yale.edu)  
-- [Zachary Mankoff](mailto:zachary.mankoff@yale.edu)  
-- [Jill Dolowich](mailto:jill.dolowich@yale.edu)  
-- [Pavane Gorrepati](mailto:pavane.gorrepati@yale.edu)  
-- [Mariel Covo](mailto:mariel.covo@yale.edu)  
-- [Zizi Yu](mailto:zizi.yu@yale.edu)  
+- [Alice Zhang](mailto:alice.zhang@yale.edu)
+- [Tanya Shi](mailto:tanya.shi@yale.edu)
+- [Wendy Yang](mailto:wendy.yang@yale.edu)
+- [Maria Quinonez](mailto:maria.quinonez@yale.edu)
 
 Assemblies Coordinators
 -----------------------
-
-- [Andrew Qi](mailto:andrew.qi@yale.edu)
 - [Anika Binner](mailto:anika.binner@yale.edu)
+- [Nicole Tsai](mailto:nicole.tsai@yale.edu)
 
 StarLab Coordinators
 --------------------
-- [Christina Tsai](mailto:christina.tsai@yale.edu)
-- [Taylor Cogsil](mailto:taylor.cogsil@yale.edu)
+- [David Minoli](mailto:david.minoli@yale.edu)
+- [Kathleen Yu](mailto:kathleen.yu@yale.edu)
 
 Publicity/Outreach Coordinator
 ------------------------------
 - [Jason Liu](mailto:jason.liu@yale.edu)
 
-Operations-Inventory Coordinators
+Operations-Inventory Coordinator
 ---------------------------------
-- [Eric Chen](mailto:eric.chen@yale.edu)
-- [Adam Pissaris](mailto:adam.pissaris@yale.edu)
+- [Haodong Xu](mailto:haodong.xu@yale.edu)
+
+Social Chairs
+-------------
+- [Wendy Yang](mailto:wendy.yang@yale.edu)
+- [Kathleen Yu](mailto:kathleen.yu@yale.edu)
+
+
