@@ -5,7 +5,7 @@ permalink: /programs/
 ---
 
 Demos is dedicated to educating local elementary students in the basic sciences
-while showing that science is both fun and accessible. We offer four separate programs.
+while showing that science is both fun and accessible. We offer three separate programs.
 
 Weekly Classroom Program
 ------------------------
