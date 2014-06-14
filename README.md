@@ -7,6 +7,8 @@ If you need to upload the site to the Yale domain, you will have to obtain
 authentication to push to the server. Please contact the current webmaster,
 Jason Liu, for more information. This repository is hosted at https://github.com/jasonkliu/demos
 
+Remember to modify the host url in `_includes/head.html` for https detection.
+
 This `gh-pages` branch uses Jekyll to serve a static set of webpages for documentation purposes.  
 The `master` branch contains the current Demos website (as of 10 June 2014) without images to save space.  
 The `f10photos` branch contains the site with a photos slideshow (from fall 2010) without images.  

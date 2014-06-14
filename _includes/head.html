@@ -9,4 +9,11 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
+    <!-- Redirection to secure version of the site -->
+    <script type="text/javascript">
+      var host = "jasonkliu.github.io";    <!-- change this in uploaded site -->
+      if ((host == window.location.host) && (window.location.protocol != "https:")) {
+        window.location.protocol = "https";
+      }
+    </script>
 </head>
