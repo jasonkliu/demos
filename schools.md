@@ -20,4 +20,3 @@ Contact Information
 We thank you for your interest in Demos, and ask that you please contact us:  
 
 - By email (preferred): [Eric Chen and Rain Tsong](mailto:demos@dwighthall.org?subject=[DEMOS] Question)  
-- By phone: (706) 831-1778 (John Klement) or (716) 480-8807 (Stacy Scheuneman).
