@@ -44,7 +44,7 @@ Sign up to learn more!
   </div>
 
   <div>
-    <input type="hidden" name="_next" value="//jasonkliu.github.io/thanks.html">
+    <input type="hidden" name="_next" value="//jasonkliu.github.io/demos/thanks/">
     <input type="submit" class="btn btn-lg" value="Thanks for submitting!">
   </div>
 </form>
