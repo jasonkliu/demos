@@ -17,14 +17,23 @@
         </svg>
       </a>
       <div class="trigger">
-        {% for page in site.pages %}
-        {% unless page.title == "Demos: Making Science Fun!" %}  <!-- Exclude homepage from top navbar -->
+        <a class="page-link" href="{{ "/about/"     | prepend: site.baseurl }}">About</a>
+        <a class="page-link" href="{{ "/contact/"   | prepend: site.baseurl }}">Contact</a>
+        <a class="page-link" href="{{ "/schools/"   | prepend: site.baseurl }}">For Schools</a>
+        <a class="page-link" href="{{ "/students/"  | prepend: site.baseurl }}">For Yale Students</a>
+        <a class="page-link" href="{{ "/materials/" | prepend: site.baseurl }}">Materials</a>
+        <a class="page-link" href="{{ "/programs/"  | prepend: site.baseurl }}">Programs</a>
+
+
+        <!--- {% for page in site.pages %}  
+        {% unless page.title == "Demos: Making Science Fun!" %}  
             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endunless %}
-        {% endfor %}
+        {% endfor %} -->
       </div>
     </nav>
 
   </div>
 
 </header>
+
