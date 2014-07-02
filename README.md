@@ -8,12 +8,14 @@ authentication to push to the server. Please contact the current webmaster,
 Jason Liu, for more information. This repository is hosted at https://github.com/jasonkliu/demos
 
 Remember to modify the host url in `_includes/head.html` for https detection as well as the 
-`thanks` url in index.md.
+`thanks` url in index.md. The original images are located in a compressed archive on Mediafire,
+contact me for the link to the archive. Otherwise, the images have been compressed with ImageMagick.
 
 This `gh-pages` branch uses Jekyll to serve a static set of webpages for documentation purposes.  
 The `master` branch contains the current Demos website (as of 10 June 2014) without images to save space.  
 The `f10photos` branch contains the site with a photos slideshow (from fall 2010) without images.  
-The `f10site` branch contains the old website from fall 2010, which was later redesigned.  
+The `f10site` branch contains the old website from fall 2010, which was later redesigned.   
+Since the last 3 branches are not actively maintained, they have been released as tags 0.3, 0.2 and 0.1.
 
 Running locally:
 ```
@@ -28,6 +30,7 @@ http://jekyllrb.com/docs/deployment-methods/
 http://jekyllrb.com/docs/github-pages/   
 https://help.github.com/articles/troubleshooting-github-pages-build-failures  
 
+Other troubleshooting:  
 1. Ill-defined url: and baseurl: in config.yml. Url is the root server; baseurl is the 
 folder on the server. Check whether the leads to any real location; if not, correct for it.  
 2. http v. https. If you're using HTTPS Everywhere, github will allow you to redirect to a
