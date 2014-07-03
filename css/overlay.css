@@ -1,5 +1,12 @@
 /* CSS for the Team Section on index.md */
 
+.cycle-slideshow {
+    /*min-width: 200px;*/
+    width: 860px;
+    /*width: 30%;*/     /* Center the div */
+    margin: 0 auto;
+}
+
 .section-team {
     /*background: -webkit-radial-gradient(circle, #1e1e1e, #1e1e1e);*/
     /*margin-top: 40px;*/

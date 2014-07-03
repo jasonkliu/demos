@@ -5,6 +5,9 @@ permalink: /
 ---
 
 <link rel="stylesheet" href="css/bootstrap.form.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="./js/jquery.cycle2.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/overlay.css" />
 
 Demos, an undergraduate volunteer organization at [Yale University](http://www.yale.edu/) 
 in [New Haven, Connecticut](http://www.cityofnewhaven.com/), is dedicated to educating local
@@ -18,6 +21,32 @@ thousands of New Haven elementary students were only exposed to science through
 Demos.
 
 <!--- Carousel slide of pictures -->
+<div class="cycle-slideshow" data-cycle-random="true">
+  <img src="./images/1.jpg">
+  <img src="./images/2.jpg">
+  <img src="./images/3.jpg">
+  <img src="./images/4.jpg">
+  <img src="./images/5.jpg">
+  <img src="./images/6.jpg">
+  <img src="./images/7.jpg">
+  <img src="./images/8.jpg">
+  <img src="./images/9.jpg">
+  <img src="./images/10.jpg">
+  <img src="./images/11.jpg">
+  <img src="./images/12.jpg">
+  <img src="./images/13.jpg">
+  <img src="./images/14.jpg">
+  <img src="./images/15.jpg">
+  <img src="./images/16.jpg">
+  <img src="./images/17.jpg">
+  <img src="./images/18.jpg">
+  <img src="./images/19.jpg">
+  <img src="./images/20.jpg">
+  <img src="./images/21.jpg">
+  <img src="./images/22.jpg">
+</div>
+
+<br>
 
 Sign up to learn more!
 ----------------------
@@ -51,8 +80,6 @@ Sign up to learn more!
 
 Staff
 -----
-
-<link rel="stylesheet" type="text/css" href="./css/overlay.css" />
 
 <center>
 <div class="section-team" id="section-team">
