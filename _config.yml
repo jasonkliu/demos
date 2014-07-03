@@ -4,7 +4,7 @@ email: "demos@dwighthall.org"
 username: YaleDemos
 description: "This website is published by Yale College students and Yale University is not responsible for its contents."
 baseurl: "/demos"
-url: "https://jasonkliu.github.io"
+url: "http://jasonkliu.github.io"
 
 # Build settings
 markdown: kramdown
