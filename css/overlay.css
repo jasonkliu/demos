@@ -31,7 +31,7 @@
     font-weight: 500;
     background-color: #65bcff;
     opacity: 0.9;
-    top:50px;
+    top:-20px;  /* Change this for overlay vertical position */
     text-align: center;
     display: none;
     line-height: 1.2em;
