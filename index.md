@@ -180,6 +180,5 @@ Staff
 
 Questions?
 ----------
-Contact our co-coordinators, [Eric Chen](mailto:demos@dwighthall.org?subject=[DEMOS] Question)
-and [Rain Tsong](mailto:demos@dwighthall.org?subject=[DEMOS] Question). 
+Contact our president, [Eric Chen](mailto:demos@dwighthall.org?subject=[DEMOS] Question).
 

@@ -7,8 +7,8 @@ permalink: /contact/
 If you have any questions, please contact us!
 
 
-Co-Coordinators 
---------------- 
+President
+---------
 - [Eric Chen](mailto:eric.chen@yale.edu)  
    Eric Chen is a pre-med senior in Saybrook College majoring in MCDB with the Neurobiology Track. He
    is from the frigid lands of Ottawa, Canada. In addition to serving as Demos President, he competes
@@ -17,8 +17,9 @@ Co-Coordinators
    and Kwan Labs. Eric is also involved with the Yale Medical Professions Outreach and Yale Faith and
    Action. He is looking forward to a great year of sharing his love for science through fun and
    engaging experiments.  
-&nbsp;
 
+Vice President
+--------------
 - [Rain Tsong](mailto:rain.tsong@yale.edu)  
    Rain Tsong is a junior in Morse College, and has always had an interest in teaching various levels
    science. As a G&G major, he enjoys spending his time pondering about the universe or appreciating
