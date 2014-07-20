@@ -87,13 +87,13 @@ Staff
         <div class="staff-pic"><img src="./images/staff/eric_chen.png" name="eric_chen" />
             <div class="overlay">
                 eric chen <br/>
-                <span style="font-weight:300; font-size: 14px"> co-coordinator</span>
+                <span style="font-weight:300; font-size: 14px"> president</span>
             </div>
         </div>
         <div class="staff-pic"><img src="./images/staff/rain_tsong.png" name="rain_tsong" />
             <div class="overlay">
                 rain tsong <br/>
-                <span style="font-weight:300; font-size: 14px"> co-coordinator</span>
+                <span style="font-weight:300; font-size: 14px"> vice president</span>
             </div>
         </div>
         <div class="staff-pic"><img src="./images/staff/christina_de_fontnouvelle.png" name="christina_de_fontnouvelle" />
