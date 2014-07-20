@@ -13,8 +13,11 @@ if [ $? -ne 0 ]; then
 fi
 
 orig="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-echo "Running in: $orig"
+echo "Running in: $orig, ensure that VPN is on"
 echo ""
+
+echo "Deleting _site folder"
+rm -rf _site/
 
 echo "Files to replace: "
 grep -riInl "jasonkliu.github.io" * --exclude-dir=_site --exclude=*.sh
