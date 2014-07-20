@@ -3,35 +3,36 @@
 # Make sure everything is checked into Git first!
 # Only use this on OSX with default sed, sed works differently elsewhere!
 
-echo "Script made by Jason Liu, July 2014"
-echo ""
+echo -e "Script made by Jason Liu, July 2014\n"
 
 git --version 2>&1 >/dev/null
 if [ $? -ne 0 ]; then
   echo "Git is not available on your system. Please install it."
-  read
+  exit
 fi
 
 orig="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-echo "Running in: $orig, ensure that VPN is on"
-echo ""
+echo -e "Running in: $orig, ensure that VPN is on\n"
 
-echo "Deleting _site folder"
+echo -e "Step 1: Deleting _site folder\n"
 rm -rf _site/
 
-echo "Files to replace: "
+echo -e "Step 2: Files to replace:"
 grep -riInl "jasonkliu.github.io" * --exclude-dir=_site --exclude=*.sh
+echo ""
 
 sed -i '' 's/jasonkliu.github.io/yale.edu/' index.md
 sed -i '' 's/jasonkliu.github.io/yale.edu/' _config.yml
 sed -i '' 's/jasonkliu.github.io/yale.edu/' _includes/head.html
 
-echo "Type your netid (no spaces); it is not stored anywhere"
+echo -e "Step 3: Type your netid (no spaces); it is not stored anywhere"
 read netid
 
+echo ""
 echo "Doing a dry run of the upload from rsync. -avz is recursive archive with"
 echo "compression, --delete removes extraneous files on destination, --dry-run"
-echo "shows just the files being moved, -i gives a summary, and -h is human.  "
-echo "rsync -avz --delete --dry-run -i -h * $netid@elsinore.cis.yale.edu:/home/demos/git"
+echo -e "shows just the files being moved, -i gives a summary, and -h is human.\n"
+
+rsync -avz --delete --dry-run -i -h * $netid@elsinore.cis.yale.edu:/home/demos/git
 
 #git checkout .
