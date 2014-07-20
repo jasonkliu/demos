@@ -11,6 +11,11 @@ if [ $? -ne 0 ]; then
   exit
 fi
 
+if [ -n "$(git status --porcelain)" ]; then
+  echo -e "Ensure your working directory is clean."
+  exit
+fi
+
 orig="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 echo -e "Running in: $orig, ensure that VPN is on\n"
 
