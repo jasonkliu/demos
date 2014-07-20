@@ -52,6 +52,13 @@ School Coordinators
 &nbsp;
 
 - [Wendy Yang](mailto:wendy.yang@yale.edu)  
+   Originally hailing from Atlanta, GA, Wendy is a Hounie in the Class of 2017
+   with a love for music, reading, cooking, TV shows, origami, cooking, coffee,
+   random facts, and a bunch of random other things...  She is a prospective
+   biomedical engineering major with a variety of extracurricular interests.
+   Outside of Demos, Wendy is involved with community outreach, cultural groups,
+   Danceworks, and Greek life.  She is excited to share her love for science with
+   younger students!
 &nbsp;
 
 Assemblies Coordinators
