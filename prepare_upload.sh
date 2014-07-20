@@ -46,7 +46,9 @@ read yesno
 if [ "1" == "$yesno" ]; then
   echo -e "Sending files...\n"
   rsync -avz --delete -i -h * $netid@elsinore.cis.yale.edu:/home/demos/git
+  echo -e "Operation done!\n"
 else
   echo -e "Reverting files back to original...\n"
   git checkout .
+  echo -e "Operation cancelled!\n"
 fi
