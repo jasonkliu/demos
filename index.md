@@ -118,7 +118,7 @@ Staff
             </div>
         </div>
 
-        <div class="staff-pic"><img src="./images/staff/atom.png" name="wendy_yang" />
+        <div class="staff-pic"><img src="./images/staff/wendy_yang.png" name="wendy_yang" />
             <div class="overlay">
                 wendy yang <br/>
                 <span style="font-weight:300; font-size: 14px"> school coordinator</span>
