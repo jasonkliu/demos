@@ -35,4 +35,13 @@ echo -e "shows just the files being moved, -i gives a summary, and -h is human.\
 
 rsync -avz --delete --dry-run -i -h * $netid@elsinore.cis.yale.edu:/home/demos/git
 
-#git checkout .
+echo -e "Step 4: Are you happy with the files changed? Press 1 for yes or else operation will stop\n"
+read yesno
+
+if [ "1" == "$yesno" ]; then
+  echo -e "Sending files...\n"
+  rsync -avz --delete -i -h * $netid@elsinore.cis.yale.edu:/home/demos/git
+else
+  echo -e "Reverting files back to original...\n"
+  git checkout .
+fi
