@@ -26,3 +26,12 @@ sed -i '' 's/jasonkliu.github.io/yale.edu/' index.md
 sed -i '' 's/jasonkliu.github.io/yale.edu/' _config.yml
 sed -i '' 's/jasonkliu.github.io/yale.edu/' _includes/head.html
 
+echo "Type your netid (no spaces); it is not stored anywhere"
+read netid
+
+echo "Doing a dry run of the upload from rsync. -avz is recursive archive with"
+echo "compression, --delete removes extraneous files on destination, --dry-run"
+echo "shows just the files being moved, -i gives a summary, and -h is human.  "
+echo "rsync -avz --delete --dry-run -i -h * $netid@elsinore.cis.yale.edu:/home/demos/git"
+
+#git checkout .
