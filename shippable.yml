@@ -1,0 +1,21 @@
+# Documentation: http://docs.shippable.com/en/latest/languages/ruby.html
+
+# Build Environment
+build_environment: ubuntu1204
+
+# Language 
+language: ruby
+
+# Version Numbers
+#- 2.0.0, 2.1.2
+rvm:
+ - 1.9.3
+
+# Jobs to test on the script
+script:
+ - bundle exec jekyll hyde  --trace
+ - bundle exec jekyll build --trace
+
+# Notifications
+notifications:
+    email: false
