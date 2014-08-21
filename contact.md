@@ -50,6 +50,13 @@ School Coordinators
 &nbsp;
 
 - [Alice Zhang](mailto:alice.zhang@yale.edu)  
+   Alice Zhang, a sophomore in Calhoun College, is planning to major in Molecular,
+   Cellular, and Developmental Biology. Outside of spreading love for the
+   sciences, she plays the saxophone in the Davenport Pops Orchestra, conducts
+   research at the Yale Stem Cell Center, and is involved in the Women’s
+   Leadership Initiative and Greek life. She loves running in the great outdoors;
+   eating mangoes, sushi, and froyo; and traveling the world (she saw the Pope
+   this past summer)!  
 &nbsp;
 
 - [Wendy Yang](mailto:wendy.yang@yale.edu)  
