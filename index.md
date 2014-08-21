@@ -102,7 +102,7 @@ Staff
                 <span style="font-weight:300; font-size: 14px"> school coordinator</span>
             </div>
         </div>
-        <div class="staff-pic"><img src="./images/staff/atom.png" name="alice_zhang" />
+        <div class="staff-pic"><img src="./images/staff/alice_zhang.png" name="alice_zhang" />
             <div class="overlay">
                 alice zhang <br/>
                 <span style="font-weight:300; font-size: 14px"> school coordinator</span>
