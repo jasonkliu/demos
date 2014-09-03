@@ -75,6 +75,11 @@ Assemblies Coordinators
 &nbsp;
 
 - [Nicole Tsai](mailto:nicole.tsai@yale.edu)  
+   Nicole is a prospective Biology and Fine Arts double major in Saybrook College.
+   She does research in neuronal motility in the Forscher lab. Outside of
+   academics, she volunteers at the Connecticut Hospice, takes shifts with Yale
+   EMS, and does graphic design work. In her free time, Nicole enjoys hiking up
+   East Rock and strolling through the Yale University Art Gallery.  
 
 StarLab Coordinators
 --------------------
