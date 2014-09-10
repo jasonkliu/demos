@@ -149,7 +149,7 @@ Staff
         <div class="staff-pic"><img src="./images/staff/jason_liu.png" name="jason_liu" />
             <div class="overlay">
                 jason liu <br/>
-                <span style="font-weight:300; font-size: 14px"> outreach coordinator </span>
+                <span style="font-weight:300; font-size: 14px"> treasurer, outreach </span>
             </div>
         </div>
 

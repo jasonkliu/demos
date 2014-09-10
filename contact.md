@@ -102,7 +102,7 @@ StarLab Coordinators
    in Science at Yale, and research at the Yale School of Medicine. In her free time, Kathleen loves to
    cook and follow food blogs.
 
-Publicity/Outreach Coordinator
+Treasurer, Publicity/Outreach Coordinator
 ------------------------------
 - [Jason Liu](mailto:jason.liu@yale.edu)  
 
