@@ -94,13 +94,6 @@ StarLab Coordinators
    helps kids (and adults) actually learn what they want to know.  As for teaching in the classroom, I
    particularly enjoy doing chemistry experiments, since I believe that there's no better way of
    learning science than hands-on experience.  
-&nbsp;
-
-- [Kathleen Yu](mailto:kathleen.yu@yale.edu)  
-   Kathleen is a sophomore in Pierson College majoring in Molecular Biophysics and Biochemistry.
-   Outside of volunteering for DEMOS, she is involved with Yale Science Olympiad, Undergraduate Women
-   in Science at Yale, and research at the Yale School of Medicine. In her free time, Kathleen loves to
-   cook and follow food blogs.
 
 Treasurer, Publicity/Outreach Coordinator
 ------------------------------
@@ -116,7 +109,4 @@ Operations-Inventory Coordinator
 Social Chairs
 -------------
 - [Wendy Yang](mailto:wendy.yang@yale.edu)  
-&nbsp;
-
-- [Kathleen Yu](mailto:kathleen.yu@yale.edu)  
 
