@@ -131,15 +131,6 @@ StarLab Coordinators
       Please do contact me at david.minoli@yale.edu with any questions, concerns, or even just to chat - I'm always available.
     </p>
   </div>
-  <h3>Kathleen Yu</h3>
-  <div>
-    <p>
-      Kathleen is a sophomore in Pierson College majoring in Molecular Biophysics and Biochemistry.
-      Outside of volunteering for DEMOS, she is involved with Yale Science Olympiad, Undergraduate Women
-      in Science at Yale, and research at the Yale School of Medicine. In her free time, Kathleen loves to
-      cook and follow food blogs.
-    </p>
-  </div>
 </div>
 
 Publicity/Outreach Coordinator
