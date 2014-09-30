@@ -41,7 +41,7 @@ Assemblies
 
 StarLab
 -------
-For more information on the curriculum of the StarLab program, please contact the StarLab coordinators, [David Minoli](mailto:david.minoli@yale.edu?subject=[DEMOS StarLab] Question) and [Kathleen Yu](mailto:kathleen.yu@yale.edu?subject=[DEMOS StarLab] Question).
+For more information on the curriculum of the StarLab program, please contact the StarLab coordinator, [David Minoli](mailto:david.minoli@yale.edu?subject=[DEMOS StarLab] Question).
 
 Use
 ---
