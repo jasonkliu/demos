@@ -55,6 +55,5 @@ accommodate some twenty kids plus you and the state-of-the-art night sky
 projector.  
 
 All levels of expertise are welcome. For more information, contact 
-[David Minoli](mailto:david.minoli@yale.edu?subject=[DEMOS StarLab] Question) and 
-[Kathleen Yu](mailto:kathleen.yu@yale.edu?subject=[DEMOS StarLab] Question).
+[David Minoli](mailto:david.minoli@yale.edu?subject=[DEMOS StarLab] Question).
 
