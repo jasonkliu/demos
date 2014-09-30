@@ -21,7 +21,7 @@ Running locally:
 ```
 bundle install  
 bundle exec jekyll serve  
-http://localhost:4000/shifts/  
+http://localhost:4000/demos/  
 ```
 
 If the Jekyll site works properly when running locally but doesn't work on gh-pages 
