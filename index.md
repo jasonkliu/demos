@@ -159,15 +159,7 @@ Staff
                 <span style="font-weight:300; font-size: 14px"> starlab coordinator</span>
             </div>
         </div>
-    </div>
 
-    <div class="staff-row">
-        <div class="staff-pic"><img src="./images/staff/kathleen_yu.png" name = "kathleen_yu" />
-            <div class="overlay">
-                kathleen yu <br/>
-                <span style="font-weight:300; font-size: 14px"> starlab coordinator</span>
-            </div>
-        </div>
         <div class="staff-pic"><img src="./images/staff/haodong_xu.png" name = "haodong_xu" />
             <div class="overlay">
                 haodong xu <br/>
