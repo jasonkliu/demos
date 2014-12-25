@@ -51,7 +51,7 @@ Demos.
 Sign up to learn more!
 ----------------------
 
-<form action="//forms.brace.io/jason.liu@yale.edu" role="form" method="POST">
+<form action="//formspree.io/jason.liu@yale.edu" role="form" method="POST">
   <div class="form-group">
     <label for="name">What's your name?</label>
     <input type="text" name="name" class="form-control" required>
