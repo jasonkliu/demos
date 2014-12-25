@@ -48,8 +48,8 @@ Demos.
 
 <br>
 
-Sign up to learn more!
-----------------------
+Sign up now!
+------------
 
 <form action="//formspree.io/jason.liu@yale.edu" role="form" method="POST">
   <div class="form-group">
