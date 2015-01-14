@@ -6,6 +6,9 @@ build_environment: ubuntu1204
 # Language 
 language: ruby
 
+# Cache dependencies for faster builds
+cache: true
+
 # Version Numbers
 #- 2.0.0, 2.1.2
 rvm:

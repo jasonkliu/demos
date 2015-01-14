@@ -5,3 +5,6 @@ _site/
 *.docx
 files/
 images/
+
+# rbenv file - use 1.9.3-p547 for now
+.ruby-version

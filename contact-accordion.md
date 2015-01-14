@@ -102,12 +102,6 @@ Assemblies Coordinators
       Sorry, no bio was provided.
     </p>
   </div>
-  <h3>Nicole Tsai</h3>
-  <div>
-    <p>
-      Sorry, no bio was provided.
-    </p>
-  </div>
 </div>
 
 

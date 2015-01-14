@@ -13,24 +13,56 @@
     margin-right: 0px;
 }
 
-.staff-row {
+.staff-row-1 {
+    margin: 20px 5px 0 5px;
+    max-width: 100%;
+}
+.staff-row-2 {
+    padding-top: 220px;
+    margin: 20px 5px 0 5px;
+    max-width: 100%;
+}
+.staff-row-3 {
+    padding-top: 200px;
     margin: 20px 5px 0 5px;
     max-width: 100%;
 }
 
-.staff-pic {
+.staff-pic-1 {
     display: inline;
     width: 150px;
-    position: relative;
+    position: absolute;
     margin: 10px 10px 0 10px;
+    left: 20%;
+}
+.staff-pic-2 {
+    display: inline;
+    width: 150px;
+    position: absolute;
+    margin: 10px 10px 0 10px;
+    left: 35%;
+}
+.staff-pic-3 {
+    display: inline;
+    width: 150px;
+    position: absolute;
+    margin: 10px 10px 0 10px;
+    left: 50%;
+}
+.staff-pic-4 {
+    display: inline;
+    width: 150px;
+    position: absolute;
+    margin: 10px 10px 0 10px;
+    left: 65%;
 }
 
-.staff-pic img {
+.staff-pic-3 img {
     max-width: 150px;
 }
 
 .section-team .overlay {
-    padding-right:5px;
+    /* padding-right:5px; */
     width:145px;
     z-index: 200;
     position:absolute;
@@ -38,13 +70,15 @@
     font-weight: 500;
     background-color: #65bcff;
     opacity: 0.9;
-    top:-20px;  /* Change this for overlay vertical position */
+    /*top:-20px;*/  /* Change this for overlay vertical position */
     text-align: center;
-    display: none;
+    /* display: none; */
     line-height: 1.2em;
 }
 
+/*  This is broken on Macs (see #3)
 .staff-pic:hover .overlay {
     display: block;
 }
+*/
 
