@@ -83,26 +83,26 @@ Staff
 
 <center>
 <div class="section-team" id="section-team">
-    <div class="staff-row">
-        <div class="staff-pic"><img src="./images/staff/eric_chen.png" name="eric_chen" />
+    <div class="staff-row-1">
+        <div class="staff-pic-1"><img src="./images/staff/eric_chen.png" name="eric_chen" />
             <div class="overlay">
                 eric chen <br/>
                 <span style="font-weight:300; font-size: 14px"> president</span>
             </div>
         </div>
-        <div class="staff-pic"><img src="./images/staff/rain_tsong.png" name="rain_tsong" />
+        <div class="staff-pic-2"><img src="./images/staff/rain_tsong.png" name="rain_tsong" />
             <div class="overlay">
                 rain tsong <br/>
                 <span style="font-weight:300; font-size: 14px"> vice president</span>
             </div>
         </div>
-        <div class="staff-pic"><img src="./images/staff/christina_de_fontnouvelle.png" name="christina_de_fontnouvelle" />
+        <div class="staff-pic-3"><img src="./images/staff/christina_de_fontnouvelle.png" name="christina_de_fontnouvelle" />
             <div class="overlay">
                 christina de fontnouvelle <br/>
                 <span style="font-weight:300; font-size: 14px"> school coordinator</span>
             </div>
         </div>
-        <div class="staff-pic"><img src="./images/staff/alice_zhang.png" name="alice_zhang" />
+        <div class="staff-pic-4"><img src="./images/staff/alice_zhang.png" name="alice_zhang" />
             <div class="overlay">
                 alice zhang <br/>
                 <span style="font-weight:300; font-size: 14px"> school coordinator</span>
@@ -110,27 +110,27 @@ Staff
         </div>
     </div>
 
-    <div class="staff-row">
-        <div class="staff-pic"><img src="./images/staff/tanya_shi.png" name="tanya_shi" />
+    <div class="staff-row-2">
+        <div class="staff-pic-1"><img src="./images/staff/tanya_shi.png" name="tanya_shi" />
             <div class="overlay">
                 tanya shi <br/>
                 <span style="font-weight:300; font-size: 14px"> school coordinator</span>
             </div>
         </div>
 
-        <div class="staff-pic"><img src="./images/staff/wendy_yang.png" name="wendy_yang" />
+        <div class="staff-pic-2"><img src="./images/staff/wendy_yang.png" name="wendy_yang" />
             <div class="overlay">
                 wendy yang <br/>
                 <span style="font-weight:300; font-size: 14px"> school coordinator</span>
             </div>
         </div>
-        <div class="staff-pic"><img src="./images/staff/maria_quinonez.png" name="maria_quinonez" />
+        <div class="staff-pic-3"><img src="./images/staff/maria_quinonez.png" name="maria_quinonez" />
             <div class="overlay">
                 maria quinonez <br/>
                 <span style="font-weight:300; font-size: 14px"> school coordinator</span>
             </div>
         </div>
-        <div class="staff-pic"><img src="./images/staff/anika_binner.png" name="anika_binner" />
+        <div class="staff-pic-4"><img src="./images/staff/anika_binner.png" name="anika_binner" />
             <div class="overlay">
                 anika binner <br/>
                 <span style="font-weight:300; font-size: 14px"> assembly coordinator</span>
@@ -138,29 +138,29 @@ Staff
         </div>
     </div>
 
-    <div class="staff-row">
-        <div class="staff-pic"><img src="./images/staff/atom.png" name="nicole_tsai" />
+    <div class="staff-row-3">
+        <div class="staff-pic-1"><img src="./images/staff/atom.png" name="nicole_tsai" />
             <div class="overlay">
                 nicole tsai <br/>
                 <span style="font-weight:300; font-size: 14px"> assembly coordinator</span>
             </div>
         </div>
 
-        <div class="staff-pic"><img src="./images/staff/jason_liu.png" name="jason_liu" />
+        <div class="staff-pic-2"><img src="./images/staff/jason_liu.png" name="jason_liu" />
             <div class="overlay">
                 jason liu <br/>
                 <span style="font-weight:300; font-size: 14px"> treasurer, outreach </span>
             </div>
         </div>
 
-        <div class="staff-pic"><img src="./images/staff/david_minoli.png" name="david_minoli" />
+        <div class="staff-pic-3"><img src="./images/staff/david_minoli.png" name="david_minoli" />
             <div class="overlay">
                 david minoli <br/>
                 <span style="font-weight:300; font-size: 14px"> starlab coordinator</span>
             </div>
         </div>
 
-        <div class="staff-pic"><img src="./images/staff/haodong_xu.png" name = "haodong_xu" />
+        <div class="staff-pic-4"><img src="./images/staff/haodong_xu.png" name = "haodong_xu" />
             <div class="overlay">
                 haodong xu <br/>
                 <span style="font-weight:300; font-size: 14px"> operations coordinator</span>
