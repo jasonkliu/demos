@@ -22,17 +22,17 @@ Demos.
 
 <!--- Carousel slide of pictures -->
 <div class="cycle-slideshow" data-cycle-random="true">
-  <img src="./images/1.jpg">
-  <img src="./images/2.jpg">
-  <img src="./images/3.jpg">
-  <img src="./images/4.jpg">
-  <img src="./images/5.jpg">
-  <img src="./images/6.jpg">
-  <img src="./images/7.jpg">
-  <img src="./images/8.jpg">
+  <img src="./images/1.png">
+  <img src="./images/2.png">
+  <img src="./images/3.png">
+  <img src="./images/4.png">
+  <img src="./images/5.png">
+  <img src="./images/6.png">
+  <img src="./images/7.png">
+  <img src="./images/8.png">
   <img src="./images/9.jpg">
-  <img src="./images/10.jpg">
-  <img src="./images/11.jpg">
+  <img src="./images/10.png">
+  <img src="./images/11.png">
   <img src="./images/12.jpg">
   <img src="./images/13.jpg">
   <img src="./images/14.jpg">
