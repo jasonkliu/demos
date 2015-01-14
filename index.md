@@ -139,28 +139,21 @@ Staff
     </div>
 
     <div class="staff-row-3">
-        <div class="staff-pic-1"><img src="./images/staff/atom.png" name="nicole_tsai" />
-            <div class="overlay">
-                nicole tsai <br/>
-                <span style="font-weight:300; font-size: 14px"> assembly coordinator</span>
-            </div>
-        </div>
-
-        <div class="staff-pic-2"><img src="./images/staff/jason_liu.png" name="jason_liu" />
+        <div class="staff-pic-1"><img src="./images/staff/jason_liu.png" name="jason_liu" />
             <div class="overlay">
                 jason liu <br/>
                 <span style="font-weight:300; font-size: 14px"> treasurer, outreach </span>
             </div>
         </div>
 
-        <div class="staff-pic-3"><img src="./images/staff/david_minoli.png" name="david_minoli" />
+        <div class="staff-pic-2"><img src="./images/staff/david_minoli.png" name="david_minoli" />
             <div class="overlay">
                 david minoli <br/>
                 <span style="font-weight:300; font-size: 14px"> starlab coordinator</span>
             </div>
         </div>
 
-        <div class="staff-pic-4"><img src="./images/staff/haodong_xu.png" name = "haodong_xu" />
+        <div class="staff-pic-3"><img src="./images/staff/haodong_xu.png" name = "haodong_xu" />
             <div class="overlay">
                 haodong xu <br/>
                 <span style="font-weight:300; font-size: 14px"> operations coordinator</span>
