@@ -94,7 +94,7 @@ Treasurer, Publicity/Outreach Coordinator
 
 Operations-Inventory Coordinator
 ---------------------------------
-- [Haodong Xu](mailto:haodong.xu@yale.edu)  
+- [Howie Xu](mailto:haodong.xu@yale.edu)  
    I am from San Jose, California and my prospective major is ecology and evolutionary biology. My
    favorite animal is the rhinoceros and I dislike Chipotle. A lot. My random hobbies include playing
    wiffle ball, watching the food network, and making breakfast. 

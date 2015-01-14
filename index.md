@@ -155,7 +155,7 @@ Staff
 
         <div class="staff-pic-3"><img src="./images/staff/haodong_xu.png" name = "haodong_xu" />
             <div class="overlay">
-                haodong xu <br/>
+                howie xu <br/>
                 <span style="font-weight:300; font-size: 14px"> operations coordinator</span>
             </div>
         </div>

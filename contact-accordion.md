@@ -142,7 +142,7 @@ Publicity/Outreach Coordinator
 Operations-Inventory Coordinator
 ---------------------------------
 <div id="accordion6">
-  <h3>Haodong Xu</h3>
+  <h3>Howie Xu</h3>
   <div>
     <p>
       I am from San Jose, California and my prospective major is ecology and evolutionary biology. My
