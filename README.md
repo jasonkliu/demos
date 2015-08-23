@@ -5,7 +5,7 @@ This is the site for the Yale Demos page, hosted at www.yale.edu/demos
 
 If you need to upload the site to the Yale domain, you will have to obtain
 authentication to push to the server. Please contact the current webmaster,
-Jason Liu, for more information. This repository is hosted at https://github.com/jasonkliu/demos
+Jason Liu, for more information. This repository is hosted at https://github.com/jasonkliu/demos, and a current version of the site can be seen at http://jasonkliu.github.io/demos.
 
 Remember to modify the host url in `_includes/head.html` for https detection as well as the 
 `thanks` url in index.md. The original images are located in a compressed archive on Mediafire,
