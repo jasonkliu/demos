@@ -24,6 +24,11 @@ bundle exec jekyll serve
 http://localhost:4000/demos/  
 ```
 
+Deploying:
+```
+prepare_upload.sh
+```
+
 If the Jekyll site works properly when running locally but doesn't work on gh-pages 
 or a remote server, try these resources:   
 http://jekyllrb.com/docs/deployment-methods/    
