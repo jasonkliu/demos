@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Demos: Making Science Fun!"
+title: ""
 permalink: /
 ---
 
@@ -8,6 +8,10 @@ permalink: /
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script src="./js/jquery.cycle2.min.js"></script>
 <link rel="stylesheet" type="text/css" href="./css/overlay.css" />
+
+<center>
+<img src="./images/logos/shirt.png">
+</center>
 
 Demos, an undergraduate volunteer organization at [Yale University](http://www.yale.edu/) 
 in [New Haven, Connecticut](http://www.cityofnewhaven.com/), is dedicated to educating local
