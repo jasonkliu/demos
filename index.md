@@ -88,56 +88,56 @@ Staff
 <center>
 <div class="section-team" id="section-team">
     <div class="staff-row-1">
-        <div class="staff-pic-1"><img src="./images/staff/eric_chen.png" name="eric_chen" />
+        <div class="staff-pic-1"><img src="./images/staff/rain_tsong.png" name="rain_tsong" />
             <div class="overlay">
-                eric chen <br/>
+                rain tsong <br/>
                 <span style="font-weight:300; font-size: 14px"> president</span>
             </div>
         </div>
-        <div class="staff-pic-2"><img src="./images/staff/rain_tsong.png" name="rain_tsong" />
+        <div class="staff-pic-2"><img src="./images/staff/haodong_xu.png" name="haodong_xu" />
             <div class="overlay">
-                rain tsong <br/>
+                howie xu <br/>
                 <span style="font-weight:300; font-size: 14px"> vice president</span>
             </div>
         </div>
-        <div class="staff-pic-3"><img src="./images/staff/christina_de_fontnouvelle.png" name="christina_de_fontnouvelle" />
+        <div class="staff-pic-3"><img src="./images/staff/kimberly_lai.png" name="kimbery_lai" />
             <div class="overlay">
-                christina de fontnouvelle <br/>
+                kimberly lai <br/>
                 <span style="font-weight:300; font-size: 14px"> school coordinator</span>
             </div>
         </div>
-        <div class="staff-pic-4"><img src="./images/staff/alice_zhang.png" name="alice_zhang" />
+        <div class="staff-pic-4"><img src="./images/staff/tho_tran.png" name="tho_tran" />
             <div class="overlay">
-                alice zhang <br/>
+                tho tran <br/>
                 <span style="font-weight:300; font-size: 14px"> school coordinator</span>
             </div>
         </div>
     </div>
 
     <div class="staff-row-2">
-        <div class="staff-pic-1"><img src="./images/staff/tanya_shi.png" name="tanya_shi" />
+        <div class="staff-pic-1"><img src="./images/staff/anika_binner.png" name="anika_binner" />
             <div class="overlay">
-                tanya shi <br/>
-                <span style="font-weight:300; font-size: 14px"> school coordinator</span>
+                anika binner <br/>
+                <span style="font-weight:300; font-size: 14px"> assembly coordinator</span>
             </div>
         </div>
 
-        <div class="staff-pic-2"><img src="./images/staff/wendy_yang.png" name="wendy_yang" />
+        <div class="staff-pic-2"><img src="./images/staff/sophia_yin.png" name="sophia_yin" />
             <div class="overlay">
-                wendy yang <br/>
-                <span style="font-weight:300; font-size: 14px"> school coordinator</span>
+                sophia yin <br/>
+                <span style="font-weight:300; font-size: 14px"> treasurer</span>
             </div>
         </div>
         <div class="staff-pic-3"><img src="./images/staff/maria_quinonez.png" name="maria_quinonez" />
             <div class="overlay">
                 maria quinonez <br/>
-                <span style="font-weight:300; font-size: 14px"> school coordinator</span>
+                <span style="font-weight:300; font-size: 14px"> outreach and publicity</span>
             </div>
         </div>
-        <div class="staff-pic-4"><img src="./images/staff/anika_binner.png" name="anika_binner" />
+        <div class="staff-pic-4"><img src="./images/staff/brian_beekley.png" name="brian_beekley" />
             <div class="overlay">
-                anika binner <br/>
-                <span style="font-weight:300; font-size: 14px"> assembly coordinator</span>
+                brian beekley <br/>
+                <span style="font-weight:300; font-size: 14px"> program coordinator</span>
             </div>
         </div>
     </div>
@@ -147,20 +147,6 @@ Staff
             <div class="overlay">
                 jason liu <br/>
                 <span style="font-weight:300; font-size: 14px"> treasurer, outreach </span>
-            </div>
-        </div>
-
-        <div class="staff-pic-2"><img src="./images/staff/david_minoli.png" name="david_minoli" />
-            <div class="overlay">
-                david minoli <br/>
-                <span style="font-weight:300; font-size: 14px"> starlab coordinator</span>
-            </div>
-        </div>
-
-        <div class="staff-pic-3"><img src="./images/staff/haodong_xu.png" name = "haodong_xu" />
-            <div class="overlay">
-                howie xu <br/>
-                <span style="font-weight:300; font-size: 14px"> operations coordinator</span>
             </div>
         </div>
     </div>
@@ -177,5 +163,5 @@ Staff
 
 Questions?
 ----------
-Contact our president, [Eric Chen](mailto:demos@dwighthall.org?subject=[DEMOS] Question).
+Contact our president, [Rain Tsong](mailto:demos@dwighthall.org?subject=[DEMOS] Question).
 
