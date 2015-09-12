@@ -9,97 +9,74 @@ If you have any questions, please contact us!
 
 President
 ---------
-- [Eric Chen](mailto:eric.chen@yale.edu)  
-   Eric Chen is a pre-med senior in Saybrook College majoring in MCDB with the Neurobiology Track. He
-   is from the frigid lands of Ottawa, Canada. In addition to serving as Demos President, he competes
-   competitively with the Yale Badminton Team, makes poutine with the Canadian Students Association,
-   volunteers with Elder Horizons at Yale-New Haven Hospital and conducts research in the Blumenfeld
-   and Kwan Labs. Eric is also involved with the Yale Medical Professions Outreach and Yale Faith and
-   Action. He is looking forward to a great year of sharing his love for science through fun and
-   engaging experiments.  
+- [Rain Tsong](mailto:rain.tsong@yale.edu)  
+   Rain is a senior who loves everything science-related. He studies geochemistry,
+   or the chemical systems of the earth, and he occasionally enjoys surfing
+   Wikipedia and birdwatching. His favorite drink from any coffeeshop is the chai
+   latte, sometimes iced, and if possible with almond milk. Rain also works as a
+   freshman counselor and sometimes writes for the Yale Scientific Magazine.  
 
 Vice President
 --------------
-- [Rain Tsong](mailto:rain.tsong@yale.edu)  
-   Rain Tsong is a junior in Morse College, and has always had an interest in teaching various levels
-   science. As a G&G major, he enjoys spending his time pondering about the universe or appreciating
-   nature (like birds and stars!). He is also a fan of indie music, bike-riding, and digital
-   photography.  
+- [Howie Xu](mailto:haodong.xu@yale.edu)  
+   Howie is a junior from San Jose, California. He plans to double major in
+   economics and ecology and evolutionary biology. Howie's spirit animal is the
+   rhinoceros he enjoys playing wiffle ball, mixing cocktails, and watching
+   European football in his free time.  
 
-School Coordinators  
+School Coordinators
 -------------------
-- [Christina de Fontnouvelle](mailto:christina.defontnouvelle@yale.edu)  
-   Christina is a junior Molecular Biophysics and Biochemistry major in Berkeley College. In addition
-   to being involved in Demos, she writes for the Yale Scientific Magazine, volunteers with the Yale
-   Refugee Project, and organizes medical outreach trips with Volunteers Around the World. She is also
-   involved with the YSO, HAPPY, and YMPO, and works in a cell biology lab in the medical school using
-   optical tweezers to investigate the molecular motor dynein.  
+- [Kimberly Lai](mailto:kimberly.lai@yale.edu)  
+   Kimberly is a sophomore in Davenport and is tentatively planning to major in
+   Molecular, Cellular, and Developmental Biology. Outside of Demos, her passions
+   include playing cello with the YSO, making a fool of herself in Danceworks, and
+   eating all kinds of food in unnecessarily large quantities.  
 &nbsp;
 
-- [Tanya Shi](mailto:tanya.shi@yale.edu)  
-   Tanya Shi is a sophomore in Morse College majoring in Environmental Engineering and possibly Applied
-   Mathematics as well, if she's ambitious. Outside of Demos, she plays flute in the Davenport Pops
-   Orchestra, makes pottery, and leads the Environmental chapter of the Yale Global Brigades. She's a
-   huge fan of baking, watching Friends, and eating an excessive amount of cake batter froyo.  
-&nbsp;
-
-- [Maria Quinonez](mailto:maria.quinonez@yale.edu)  
-   Maria grew up in LA, California. She loves science so much she initially planned to go to medical
-   school and be a neuroscientist. Her interests have shifted somewhat -she is now doing social science
-   in psychology rather than any real STEM- but she still loves sharing science.  
-&nbsp;
-
-- [Alice Zhang](mailto:alice.zhang@yale.edu)  
-   Alice Zhang, a sophomore in Calhoun College, is planning to major in Molecular,
-   Cellular, and Developmental Biology. Outside of spreading love for the
-   sciences, she plays the saxophone in the Davenport Pops Orchestra, conducts
-   research at the Yale Stem Cell Center, and is involved in the Women’s
-   Leadership Initiative and Greek life. She loves running in the great outdoors;
-   eating mangoes, sushi, and froyo; and traveling the world (she saw the Pope
-   this past summer)!  
-&nbsp;
-
-- [Wendy Yang](mailto:wendy.yang@yale.edu)  
-   Originally hailing from Atlanta, GA, Wendy is a Hounie in the Class of 2017
-   with a love for music, reading, cooking, TV shows, origami, cooking, coffee,
-   random facts, and a bunch of random other things...  She is a prospective
-   biomedical engineering major with a variety of extracurricular interests.
-   Outside of Demos, Wendy is involved with community outreach, cultural groups,
-   Danceworks, and Greek life.  She is excited to share her love for science with
-   younger students!
+- [Tho Tran](mailto:tho.tran@yale.edu)  
+   Tho is a junior in Saybrook College, majoring in Molecular, Cellular, and
+   Developmental Biology. When she is not finishing her p-sets last minute, she
+   enjoys reading, drawing, practicing archery, and preparing taxes as an
+   IRS-certified volunteer with VITA at Yale. Her weekends are spent playing
+   Settlers of Catan and doing really cool science in the lab.  
 &nbsp;
 
 Assemblies Coordinators
 -----------------------
 - [Anika Binner](mailto:anika.binner@yale.edu)  
+   Anika Binner is a senior in Timothy Dwight College majoring in
+   Psychology-Neuroscience track. She is returning for her fourth year of
+   volunteering and her third year as Assemblies Coordinator for DEMOS. Next year
+   she hopes to attend medical school and study neurology.  
 &nbsp;
 
-StarLab Coordinators
---------------------
-- [David Minoli](mailto:david.minoli@yale.edu)  
-   Hello there stranger!  Hopefully, if you're reading this, we won't be strangers for long - my name
-   is David Minoli, and I'm a StarLab coordinator, as well as a regular demos classroom teacher.  I'm
-   currently a junior in Calhoun college, studying Chemistry and planning to go into Dentistry.  While
-   this does mean I'm a stickler for oral hygiene and I love spectroscopy a little too much, I focus a
-   lot of my time on extracurricular and leisurely pursuits, such as birdwatching, cooking, swimming
-   and traveling back to my home country, Italy, whenever I get the chance.  When I'm leading a
-   Starlabs session, I focus less on a single-sided lecturing, and more of a freeform discussion, as it
-   helps kids (and adults) actually learn what they want to know.  As for teaching in the classroom, I
-   particularly enjoy doing chemistry experiments, since I believe that there's no better way of
-   learning science than hands-on experience.  
 
-Treasurer, Publicity/Outreach Coordinator
+Treasurer
+---------
+- [Sophia Yin](mailto:sophia.yin@yale.edu)  
+   Sophia is a sophomore. She studies psychology and is planning to go to medical
+   school. In her free time, she can often be found browsing Buzzfeed and singing
+   (sometimes at the same time). In addition to DEMOS, she tutors ESL and is a
+   member of the Berkeley Residential College Council.  
+
+Program Coordinator
+-------------------
+- [Brian Beekley](mailto:brian.beekley@yale.edu)  
+   Brian is a sophomore in Pierson College, and the Protocols Coordinator for
+   Demos. I love chemistry, explosions, learning, and vanilla soft serve ice
+   cream. I'm originally from San Francisco, California, and often find myself
+   craving warm sunshine during New Haven's winters. I'm looking forward to
+   getting into the classroom with the kids!  
+
+Publicity/Outreach Coordinator
 ------------------------------
+- [Maria Quinonez](mailto:mariafernq@gmail.com)  
+   Maria is a senior who has loved science from the time she was a small child.
+   She discovered that the human brain was the most fascinating subject of
+   scientific inquiry, and then became more interested in the human mind. Maria
+   studies psychology now, and also enjoys playing the ukulele, reading, and
+   drinking hot caffeinated drinks.  
+&nbsp;
+
 - [Jason Liu](mailto:jason.liu@yale.edu)  
-
-Operations-Inventory Coordinator
----------------------------------
-- [Howie Xu](mailto:haodong.xu@yale.edu)  
-   I am from San Jose, California and my prospective major is ecology and evolutionary biology. My
-   favorite animal is the rhinoceros and I dislike Chipotle. A lot. My random hobbies include playing
-   wiffle ball, watching the food network, and making breakfast. 
-
-Social Chairs
--------------
-- [Wendy Yang](mailto:wendy.yang@yale.edu)  
 
