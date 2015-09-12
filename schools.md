@@ -19,4 +19,4 @@ Contact Information
 
 We thank you for your interest in Demos, and ask that you please contact us:  
 
-- By email (preferred): [Eric Chen and Rain Tsong](mailto:demos@dwighthall.org?subject=[DEMOS] Question)  
+- By email (preferred): [Rain Tsong and Howie Xu](mailto:demos@dwighthall.org?subject=[DEMOS] Question)  
