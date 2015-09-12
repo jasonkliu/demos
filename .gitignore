@@ -6,5 +6,5 @@ _site/
 files/
 images/
 
-# rbenv file - use 1.9.3-p547 for now
+# rbenv file - use 2.2.0 for now
 .ruby-version
