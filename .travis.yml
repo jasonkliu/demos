@@ -1,7 +1,7 @@
 # Documentation: http://docs.shippable.com/en/latest/languages/ruby.html
 
 # Build Environment
-build_environment: ubuntu1204
+# build_environment: ubuntu1204
 
 # Language
 language: ruby
