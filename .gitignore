@@ -5,3 +5,5 @@ _site/
 *.docx
 files/
 images/
+
+.ruby-version
