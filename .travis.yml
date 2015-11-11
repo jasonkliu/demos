@@ -10,9 +10,9 @@ language: ruby
 cache: true
 
 # whitelist
-branches:
-  only:
-    - gh-pages
+# branches:
+#   only:
+#     - gh-pages
 
 # Version Numbers
 #- 2.0.0, 2.1.2
