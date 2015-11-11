@@ -1,5 +1,5 @@
-YaleDemos
-=========
+YaleDemos  [![Build Status](https://magnum.travis-ci.com/jasonkliu/demos.svg?token=TpaPZw1PqjPrhpwQ4EVo&branch=master)](https://magnum.travis-ci.com/jasonkliu/demos)
+==================================
 
 This is the site for the Yale Demos page, hosted at www.yale.edu/demos
 
