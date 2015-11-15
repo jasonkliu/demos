@@ -1,8 +1,3 @@
-# Documentation: http://docs.shippable.com/en/latest/languages/ruby.html
-
-# Build Environment
-# build_environment: ubuntu1204
-
 # Language
 language: ruby
 
@@ -10,22 +5,22 @@ language: ruby
 cache: true
 
 # whitelist
-# branches:
-#   only:
-#     - gh-pages
+branches:
+  only:
+    - gh-pages
 
 # Version Numbers
 #- 2.0.0, 2.1.2
 rvm:
- - 2.2.0
+  - 2.2.0
 
 # Jobs to test on the script
 script:
- - bundle exec jekyll hyde  --trace
- - bundle exec jekyll build --trace
+  - bundle exec jekyll hyde  --trace
+  - bundle exec jekyll build --trace
 
 # Notifications
 notifications:
-    email:
-        on_success: change
-        on_failure: always
+  email:
+    on_success: change
+    on_failure: always
