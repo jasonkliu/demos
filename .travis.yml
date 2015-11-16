@@ -2,7 +2,7 @@
 language: ruby
 
 # Cache dependencies for faster builds
-cache: true
+cache: bundler
 
 # whitelist
 branches:
